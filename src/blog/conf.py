@@ -3,10 +3,10 @@
 # See http://posativ.org/acrylamid/conf.py.html
 
 SITENAME = 'A descriptive blog title'
-WWW_ROOT = 'http://example.com/'
+WWW_ROOT = 'http://heilpraktiker-frank-schneider.de/'
 
-AUTHOR = 'Anonymous'
-EMAIL = 'mail@example.com'
+AUTHOR = 'Frank Schneider'
+EMAIL = 'info@heilpraktiker-frank-schneider.de'
 
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
@@ -52,3 +52,7 @@ VIEWS = {
 THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
+DEPLOYMENT = {
+    'default': 'rsync -av $OUTPUT_DIR hpfs@ursa.uberspace.de:~/tools/blog/',
+}
+
