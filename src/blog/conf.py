@@ -2,7 +2,7 @@
 # This is your configuration file.  Please write valid python!
 # See http://posativ.org/acrylamid/conf.py.html
 
-SITENAME = 'A descriptive blog title'
+SITENAME = 'heilpraktiker-frank-schneider.de'
 WWW_ROOT = 'http://heilpraktiker-frank-schneider.de/'
 
 AUTHOR = 'Frank Schneider'
@@ -53,6 +53,6 @@ THEME = 'theme'
 ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
 DEPLOYMENT = {
-    'default': 'rsync -av $OUTPUT_DIR hpfs@ursa.uberspace.de:~/tools/blog/',
+    'default': 'rsync -av $OUTPUT_DIR hpfs@ursa.uberspace.de:~/html/',
 }
 
