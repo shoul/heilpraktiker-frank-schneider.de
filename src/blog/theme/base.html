@@ -20,7 +20,8 @@
 </head>
 <body>
   <header>
-    <h1><a href="{{ env.path + '/' }}" rel="home start" class="blogtitle">{{ conf.sitename }}</a></h1>
+    <h1><img class="left" src="{{ env.path + '/logo.png' }}" /><a href="{{ env.path + '/' }}" rel="home start">{{ conf.sitename }}</a></h1>
+    <div class="clearfix" ></div>
     <nav>
       <ul>
         <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>
@@ -34,7 +35,15 @@
   {%- endblock -%}
   <footer>
     {% block footer %}
-    <p>written by <a href="mailto:{{ conf.email }}">{{ conf.author }}</a></p>
+    <address>
+      <strong>Kontakt</strong><br>
+      Tschaikowskistr 18 <br>
+      04105 Leipzig <br>
+      <br>
+      Mobil: 0178 / 333 59 99<br>
+      Email: <a href="mailto:{{ conf.email }}">{{ conf.author }}</a><br>
+      
+    </address>
     <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/" rel="copyright license">
         <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="by-nc-sa" />
     </a>
