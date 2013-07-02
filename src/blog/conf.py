@@ -3,7 +3,7 @@
 # See http://posativ.org/acrylamid/conf.py.html
 
 SITENAME = 'heilpraktiker-frank-schneider.de'
-WWW_ROOT = 'http://heilpraktiker-frank-schneider.de/'
+WWW_ROOT = 'http://heilpraktiker-frank-schneider.de/blog'
 
 AUTHOR = 'Frank Schneider'
 EMAIL = 'info@heilpraktiker-frank-schneider.de'
