@@ -4,6 +4,8 @@ body {
     background-color: white;
     margin: 0 auto;
     width: 800px;
+    background-image: url('ricepaper.png');
+    background-attachment: fixed;
 }
 body > header {
     padding: 10px;
@@ -191,3 +193,4 @@ object[type="application/x-shockwave-flash"], iframe.video {
 header > h1 > .left { float: left; width: 5em }
 
 .clearfix:before, .clearfix:after { content: ""; display: table }
+
