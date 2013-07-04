@@ -3,39 +3,39 @@
 # See http://posativ.org/acrylamid/conf.py.html
 
 SITENAME = 'heilpraktiker-frank-schneider.de'
-WWW_ROOT = 'http://heilpraktiker-frank-schneider.de/blog'
+WWW_ROOT = 'http://heilpraktiker-frank-schneider.de'
 
 AUTHOR = 'Frank Schneider'
 EMAIL = 'info@heilpraktiker-frank-schneider.de'
 
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 VIEWS = {
-    '/': {'filters': 'summarize', 'view': 'index',
+    '/blog/': {'filters': 'summarize', 'view': 'index',
           'pagination': '/page/:num/'},
 
-    '/:year/:slug/': {'views': ['entry', 'draft']},
+    '/blog/:year/:slug/': {'views': ['entry', 'draft']},
 
-    '/tag/:name/': {'filters': 'summarize', 'view':'tag',
+    '/blog/tag/:name/': {'filters': 'summarize', 'view':'tag',
                     'pagination': '/tag/:name/:num/'},
 
-    '/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atom'},
-    '/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
+    '/blog/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atom'},
+    '/blog/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rss'},
 
     # # per tag Atom or RSS feed. Just uncomment to generate them.
     # '/tag/:name/atom/': {'filters': ['h2', 'nohyphenate'], 'view': 'atompertag'},
     # '/tag/:name/rss/': {'filters': ['h2', 'nohyphenate'], 'view': 'rsspertag'},
 
-    '/articles/': {'view': 'archive', 'template': 'articles.html'},
+    '/blog/articles/': {'view': 'articles', 'template': 'articles.html'},
 
-    '/sitemap.xml': {'view': 'sitemap'},
+    '/blog/sitemap.xml': {'view': 'sitemap'},
 
     # # Here are some more examples
 
     # # '/:slug/' is a slugified url of your static page's title
-    # '/:slug/': {'view': 'page'},
+    '/:slug/': {'view': 'page'},
 
     # # '/atom/full/' will give you a _complete_ feed of all your entries
-    # '/atom/full/': {'filters': 'h2', 'view': 'atom', 'num_entries': 1000},
+    '/blog/atom/full/': {'filters': 'h2', 'view': 'atom', 'num_entries': 1000},
 
     # # a feed containing all entries tagges with 'python'
     # '/rss/python/': {'filters': 'h2', 'view': 'rss',
