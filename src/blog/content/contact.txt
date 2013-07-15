@@ -1,0 +1,18 @@
+---
+title: Kontakt
+permalink: /contact/
+type: page
+tags: [Info,]
+---
+
+
+
+<address>
+  <strong>Kontakt</strong><br>
+  Tschaikowskistr 18 <br>
+  04105 Leipzig <br>
+  <br>
+  Mobil: 0178 / 333 59 99<br>
+  Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">Frank Schneider</a><br>
+
+</address>
