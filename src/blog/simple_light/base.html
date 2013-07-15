@@ -1,55 +1,91 @@
-<!DOCTYPE html>
+/<!DOCTYPE HTML>
 <html lang="{{ entry.lang if entry else conf.lang }}">
+
 <head>
   {% block head -%}
   <meta charset="utf-8" />
-  <title>{% block title %}{% endblock %}</title>
-  <link media="all" href="{{ env.path + '/style.css' }}" rel="stylesheet" />
+  <title>{% block title %}{% endblock title %}</title>
+  <link media="all" rel="stylesheet" href="{{  env.path + '/simple_light.css' }}" />
   <link href="/favicon.ico" rel="shortcut icon" />
-    {% if 'sitemap' in env.views -%}
-        <link href="{{ env.views.sitemap.path }}" type="application/xml" rel="sitemap" title="Sitemap">
-    {%- endif%}
+  {% if 'sitemap' in env.views -%}
+    <link href="{{ env.views.sitemap.path }}" type="application/xml" title="Sitemap">
+  {%- endif%}
   <link href="{{ env.path + '/' }}" rel="home start" />
   <link href="{{ env.path + '/atom/' }}" type="application/atom+xml" rel="alternate" title="Atom Feed" />
-  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Lato' rel='stylesheet' type='text/css'> 
-  <link href="{{ env.path + '/rss/' }}" type="application/rss+xml" rel="alternate" title="RSS Feed" />
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <meta name="description" content="{% block description -%}{%- endblock %}" />
+  <meta name="keywords" content="{% block keywords -%}{%- endblock %}" />
   {%- endblock %}
 </head>
+
 <body>
-  <header>
-    <h1><img class="left" src="{{ env.path + '/logo.png' }}" /><a href="{{ env.path + '/' }}" rel="home start">{{ conf.sitename }}</a></h1>
-    <div class="clearfix" ></div>
-    <nav>
-      <ul>
-        <li><a href="{{ env.path + '/' }}" rel="home start">blog</a></li>
-        <li><a href="{{ env.path + '/atom/' }}" rel="alternate">atom</a></li>
-        <li><a href="{{ env.path + '/rss/' }}" rel="alternate">rss</a></li>
-        <li><a href="{{ env.path + '/articles/' }}" rel="contents">articles</a></li>
-      </ul>
-    </nav>
-  </header>
-  {%- block content -%}
-  {%- endblock -%}
-  <hr>
-  <footer>
-    {% block footer %}
-    <address>
-      <strong>Kontakt</strong><br>
-      Tschaikowskistr 18 <br>
-      04105 Leipzig <br>
-      <br>
-      Mobil: 0178 / 333 59 99<br>
-      Email: <a href="mailto:{{ conf.email }}">{{ conf.author }}</a><br>
-      
-    </address>
-    <br>
-    <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/de/" rel="copyright license">
-        <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="by-nc-sa" />
-    </a>
-    {% endblock %}
-  </footer>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <img class="logo_image" src="{{ env.path + '/logo.png' }}"></img>
+        <!-- class="logo_colour", allows you to change the colour of the text -->
+        <h1><a href="/"><span class="logo_colour">Heilpraktiker</span> Frank Schneider</a></h1>
+        <h2>Heilen durch chinesische Medizin in Leipzig</h2>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+            <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="{{ env.path + '/blog/' }}" rel="home start">Blog</a></li>
+          <li><a href="{{ env.path + '/contact/' }}" rel="static">Kontakt</a></li>
+          <li><a href="{{ env.path + '/therapy/' }}" rel="static">Therapie</a></li>
+          <li><a href="{{ env.path + '/cost/' }}" rel="static">Kosten</a></li>
+          <li><a href="{{ env.path + '/about/' }}" rel="static">Über mich</a></li>
+          {% for page in sequence %}
+
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        {% block sidebar %}
+
+        <h3>Themen</h3>
+        <ul>
+        {% for tag in env.tag_cloud %}
+          <li class="tag-{{ tag.step }}"><a href="/blog/tag/{{ tag.name | safeslug }}/">{{ tag.name }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <h1>Blog Links</h1>
+        <ul>
+          <li><a href="{{ env.path + '/blog/articles/' }}" rel="contents">Archiv</a></li>
+          <li><a href="{{ env.path + '/blog/atom/' }}" rel="alternate">atom</a></li>
+        </ul>
+        <h1>Suche</h1>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+        {% endblock %}
+      </div>
+      <div id="content">
+        {%- block content -%}
+        {%- endblock -%}
+      </div>
+    </div>
+    <div id="footer">
+      <p>
+        <a href="/">Home</a> |
+        <a href="/kontakt">Kontakt</a>
+        <a href="/impressum/">Impressum</a>
+      </p>
+      <p>Copyright &copy; simple_light |
+        <a href="http://validator.w3.org/check?uri=referer">HTML5</a> |
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
+        <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+      </p>
+    </div>
+  </div>
 </body>
 </html>

@@ -1,7 +1,9 @@
 ---
 title: Therapie
+permalink: /therapy/
 date: 04.07.2013, 13:58
 type: page
+tags: [Therapie,]
 ---
 
 # Von mier häufig genutzte Therapiemethoden
