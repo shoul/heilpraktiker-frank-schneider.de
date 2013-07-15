@@ -6,17 +6,121 @@ type: page
 tags: [Therapie,]
 ---
 
-# Von mier häufig genutzte Therapiemethoden
 
-* Akupunktur
-* Tuina
-* Ernährungsberatung
+# Therapiemethoden
+
+Zu den von mir am häufigsten genutzen Therapiemethoden gehören Akupunktur, Moxibuston und Tuina.
+
+Die zur Anwendung kommede Therapie stimme ich mit meinen Patienten ab. 
+
+Für die Behandlung wird der Patient zuvor in eine angenehme Position gebracht. Liegen ist für die meisten Patienten am bequemsten.
 
 
-# Unter Anderem behadle ich aus folgendem Anlass
+## Akupunktur
+
+Akupunkur ist eine Nadelstichtechnik. Dazu werden dünne Nadeln an Akupunturpunkten in die Haut gestochen. Akupunkturpunkte befinden sich am ganzen Körper. Für die Behandlung wählt der Therapeut einzelne Punkte aus die für die Behandlung zur Anwedung kommen. Diese Auswahl wird von Behandlung zu Behandlung neu entschieden und kann auch bei jeder Behandlung gleich sein. 
+
+
+## Moxibustion
+
+Moxibustion gehört zur Akupuntur. Für die Behadlung wird durch das abbrennen von Beifuß wärme erzeugt die für die Therapie genutzt wird.
+
+
+## Tuina
+
+Tuina ist eine mauelle Therapiemethode aus China. Kommt Tuina zum Einsatz wird mit speziellen Techniken über die Muskeln und die Akupunturpunkte behandlet.
+
+
+Die chinesische Medizin ist eine Erfahrungsmedizin die vor mehr dreitausend Jahren aus der Volksmedizin entstanden ist. 
+
+Es existieren sehr frühe Aufzeichnugen die beschreiben wann welche Therapiemethode wie einzusetzen ist. Die chinesische Medizin ist eine traditionsreiche Medizinform und durch die kontinuierliche Dokumentation existiert ein riesiger Erfahrungsschatz.
+
+Chinesische Medizin wird in Deutschland seit mehreren Jahrzenten, zunehmend angewandt. Wenn Sie sich überlegen sich mit chinesischer Medizin behadeln zu lassen, geht es Ihen wie vielen anderen Menschen in Deutschland.
+
+
+# Indikitionen
+
+Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spektrum. Die folgende Aufzählung soll einen Eindruck vermitteln bei welchen Beschwerden Sie durch chinesische Medizin linderung oder Heilung erfahren können.
+
+
+## Erkrankungen des Stütz- und Bewegungssystems
+
+* Artrose
+* LWS-Syndrom
+* Ischialgie
+
+
+## Neuronale Erkrankungen
+
+* Kopfschmerz
+* Lähmungen
+* Polyneuropathie
+* Trigeminusneuralgie
+
+
+## Psychische und Psychosomaische Störungen 
+
+* Bulimie, Adipositas
+* Depressieve Verstimmung
+* Entgiftungsbehandlung
+* Schlafstörungen
+* Erschöpfungszustand
+
+
+## Bronchopulmonale Erkrankungen
+
+* Astma
+* Bronchitis
+
+
+## Herz- Kreislauf Erkrankungen
+
+* Hypertonie
+* Durchblutungsstörungen
+* Herzrythmusstörungen
+
+
+## Gastrointestinale Erkrankungen
+
+* Funktionelle Magen-Darm Störung
+
+
+## Urologische Erkrankungen
+
+* Enuresis nocturna
+* Funktionelle Störung des Urogenitaltraktes
+* Harninkontinenz
+* Impotenz
+* Fertilitätsstörungen
+* Frigidität
+* Schwangerschaftsbegleitung
+* Prämestruelles Syndrom
+* Klimakterisches Syndrom
+* Zyklusstörungen
+* Dysmenorrhö
+
+
+## Hals- Nasen- Ohrenerkrankungen
+
+* Geruchs- und Gemacksstörungen
+* Hörsturz
+* Schwerhörigkeit
+* Tititus
+* Schwindel
+* Reisekrankheit
+
+
+## Hauterkrankungen
+
+* Urtikaria
+* Neurodermitis
+
+
+## Sontiges
 
 * Schmerzen
-* PMS
-* Schwangeschaftsbegleitend
-
+* Posttraumatischer Schmerz
+* Tumorschmerz
+* Immunstörungen
+* Postoperativer Schmerz
 
