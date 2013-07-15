@@ -1,8 +1,0 @@
----
-title: Über mich
-date: 04.07.2013, 14:04
-type: page
----
-
-Das bin ich ;)
-

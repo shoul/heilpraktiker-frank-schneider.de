@@ -1,9 +1,0 @@
----
-title: contact
-type: page
----
-
-= Kontact
-
-Mail: info@heilpraktiker-frank-schneider.de
-
