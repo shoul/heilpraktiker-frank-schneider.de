@@ -51,7 +51,7 @@ VIEWS = {
 }
 
 THEME = 'simple_light'
-ENTRY_PERMALINK = '/:year/:slug/index.html'
+ENTRY_PERMALINK = '/blog/:year/:slug/index.html'
 PAGE_PERMALINK = '/:slug/index.html'
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
