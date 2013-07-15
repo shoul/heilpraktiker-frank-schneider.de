@@ -5,12 +5,17 @@ tags: [Lebensführung,]
 ---
 
 
-Viele Menschen suchen derzeit nach einerm natürlichen Mückenmittel als Alternative zu den Handelsüblichen Insektenschutz-Mitteln. In den besser wirsamen Mitteln ist Diethyltoluamid enthalten das auch unter der Abkürzung `DEET` bekannt ist.  [Diethyltoluami][wiki.de/Diethyltoluami] ist potentiell gesundheitsschädlich.
+Viele Menschen suchen derzeit nach einerm natürlichen Mückenmittel als
+Alternative zu den Handelsüblichen Insektenschutz-Mitteln. In den besser
+wirsamen Mitteln ist Diethyltoluamid enthalten das auch unter der Abkürzung
+`DEET` bekannt ist.
+[Diethyltoluami](http://de.wikipedia.org/wiki/Diethyltoluamid) ist potentiell gesundheitsschädlich.
 
 
 # Wer sich schützen sollte und warum
 
-Mücken sind Krankheitsüberträger und können auf Tier und Mensch Viren übertragen. Dabei muss man nicht Angst vor jedem Sich haben doch vor allem alte und schwache Menschen sollten die Anzahl der Stiche durch angemessen Schutz nach Möglichkeit reduzieren.
+Mücken sind Krankheitsüberträger für Tier und Mensch. Dabei muss man nicht
+Angst vor jedem Sich haben, doch vor allem alte und schwache Menschen sollten die Anzahl der Stiche durch angemessen Schutz reduzieren.
 
 
 # Schutzmaßnahmen
@@ -20,7 +25,7 @@ Um sich Möglichst wirkungsvoll vor Mücken zu schützen ist es ratsam verschied
 
 ## Mückenschutz in geschlossen Räumen
 
-Mückennetze oder Gitter vor den Fenster sind ein wirkungsvoller Schutz der allerdings etwas handwerkliches Geschick und Zeit in Anspruch nimmt. Auch der Blick nach Draußen durch das Netz ist gewöhnugsbedürfig; dafür bietet diese Art der Vorkerung einen sehr guten Schutz und eignet sich auch bei sehr starkem Mückenaufkommen.
+Mückennetze oder Gitter vor den Fenstern sind ein wirkungsvoller Schutz und eignen sich auch bei sehr starkem Mückenaufkommen.
 
 Wenn nur der Schlafbereich geschützt werden soll ist ein Mückenschleier über dem Bett eine gute Maßnahme. Zusätzlich kann eine Duftlampe mit ätherischem Öl ein Raum für Mücken weniger reizvoll machen.
 
@@ -33,7 +38,7 @@ Mücken mögen es warm und feucht. Wenn sie Ihre Wohnräume kühl halten reduzie
 
 Lüften Sie am frühen Morgen wenn es vergleichsweise noch kühl ist, alle Wohnräume mit weit geöffneten Fenstern gut durch und halten Sie die Fenster für den rest des Tages geschlossen.
 
-Hängen Sie, wenn Gitter oder Netze nicht in Frage kommen, die Fenster tagsüber von außen mit hellen Tüchern ab damit die Sonne Ihre Räume nicht so stark aufheizt.
+Sie können die Fenster tagsüber von außen mit hellen Tüchern abhängen damit die Sonne Ihre Räume nicht so stark aufheizt.
 
 
 ## Tragen sie helle Kleidung
@@ -43,10 +48,9 @@ Kleiden Sie sich im Sommer hell. Mücken und Zecken sitzen eher auf dunkler Klei
 Wenn Sie möglichst viel ihrer Hautfläche mit Stoff bedecken und dieser Stoff nicht am Körper anliegt, machen Sie es Mücken besonders schwer zu stechen.
 
 
-## Düfte die die Mücke meidet
+## Düfte die von Mücken gemieden werden
 
-Ätherische Öle werden von Zecke und Mücke allgemein gemieden bieten aber keinen hundertprozentigen Schutz. Mit ätherischen Ölen kann man sich einreiben oder diese in einer Schale oder einer Duftlampe verdunsten lassen.
+Ätherische Öle werden von Zecke und Mücke allgemein gemieden. Mit ätherischen Ölen kann man sich einreiben oder diese in einer Schale oder einer Duftlampe verdunsten lassen. 
 
-Vorsicht ist bei Schleimhäuten und empfindlicher Haut geboten da ätherische Öle auf der Haut brennen und die Schleimhäute angreifen können. Bewährt es sich, sich zuerst einzukremen und dann dünn mit Nelkenöl einzureiben.
+<strong>Vorsicht</strong> ist bei Schleimhäuten und empfindlicher Haut geboten da ätherische Öle auf der Haut brennen und die Schleimhäute angreifen können. Bewährt ist es, sich zuerst einzukremen und dann dünn mit Nelkenöl einzureiben.
 
-[wiki.de/Diethyltoluami] http://de.wikipedia.org/wiki/DEET "de.Wikipedia.org - Diethyltoluami"
