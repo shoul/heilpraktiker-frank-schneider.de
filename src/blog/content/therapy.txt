@@ -7,7 +7,6 @@ tags: [Therapie,]
 ---
 
 
-# Therapiemethoden
 
 Zu den von mir am häufigsten genutzen Therapiemethoden gehören Akupunktur, Moxibuston und Tuina.
 
@@ -15,13 +14,18 @@ Die zur Anwendung kommede Therapie stimme ich mit meinen Patienten ab.
 
 Für die Behandlung wird der Patient zuvor in eine angenehme Position gebracht. Liegen ist für die meisten Patienten am bequemsten.
 
+Die Kosten sind Abhängig von den Therapiemaßnamen meisten trifft folgende Regelung zu. 
 
-## Akupunktur
+Termin zur Erstuntersuchung - 50,- Euro.
+Folgebehandung - 40,- Euro.
+
+
+# Akupunktur
 
 Akupunkur ist eine Nadelstichtechnik. Dazu werden dünne Nadeln an Akupunturpunkten in die Haut gestochen. Akupunkturpunkte befinden sich am ganzen Körper. Für die Behandlung wählt der Therapeut einzelne Punkte aus die für die Behandlung zur Anwedung kommen. Diese Auswahl wird von Behandlung zu Behandlung neu entschieden und kann auch bei jeder Behandlung gleich sein. 
 
 
-## Moxibustion
+# Moxibustion
 
 Moxibustion gehört zur Akupuntur. Für die Behadlung wird durch das abbrennen von Beifuß wärme erzeugt die für die Therapie genutzt wird.
 
