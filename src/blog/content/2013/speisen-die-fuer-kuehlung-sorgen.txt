@@ -2,6 +2,7 @@
 title: Speisen die für Kühlung sorgen
 date: 20.06.2013, 16:41
 tags: [Ernährung]
+draft: True
 ---
 
 Wer mit der Hitze keine Probleme hat wird natürlich Essen worauf er Hunger hat, aber für die Menschen die mit der Hitze zu kämpfen haben oder sich einfach angemessen Ernähren wollen, habe ich hier ein Paar Ernährunstipps.
