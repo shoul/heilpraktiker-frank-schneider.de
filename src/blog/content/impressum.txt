@@ -1,12 +1,10 @@
----
-title: Impressum
 permalink: /impressum/
 type: page
 tags: [Info,]
 ---
 
-# Angaben gemäß §5 TGM
 
+# Angaben gemäß §5 TGM
 
 <address>
 **Betreiber:** <br>
