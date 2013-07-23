@@ -34,7 +34,7 @@ h2
   color: #B60000;}
 
 h3
-{ font: normal 165% 'century gothic', arial, sans-serif;}
+{ font: normal 145% 'century gothic', arial, sans-serif;}
 
 h4, h5, h6
 { margin: 0;
@@ -51,10 +51,10 @@ h6
 
 a, a:hover
 { outline: none;
-  text-decoration: underline;
+  text-decoration: none;
   color: #A4AA04;}
 
-.continue
+.continue, .continue:hover
 { color: #B60000; }
 
 a:hover
@@ -120,13 +120,13 @@ ol li
   color: #FFF;}
 
 #logo h2
-{ font-size: 120%;
+{ font-size: 130%;
   padding: 4px 0 0 0;
-  color: #A8AA94;}
+  color: #2DB8CD;}
 
 #logo h1, #logo h1 a, #logo h1 a:hover
 { padding: 22px 0 0 0;
-  color: #FFF;
+  color: #2DB8CD;
   text-decoration: none;}
 
 .logo_image {
@@ -138,7 +138,7 @@ ol li
 #logo h1 a .logo_colour
 { color: #888;}
 
-#logo a:hover .logo_colour
+#logo h1 a:hover .logo_colour
 { color: #FFF;}
 
 #menubar
@@ -237,7 +237,10 @@ header > time
 { line-height: 22px;
   padding: 0;}
 
-footer a,footer  a:hover
+footer a
+{ color: #A4AA04; }
+
+footer a:hover
 { color: #A4AA04; }
 
 .search
