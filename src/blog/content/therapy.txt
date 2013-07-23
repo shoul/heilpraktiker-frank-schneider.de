@@ -7,51 +7,59 @@ tags: [Therapie,]
 ---
 
 
-
-Zu den von mir am häufigsten genutzen Therapiemethoden gehören Akupunktur, Moxibuston und Tuina.
-
-Die zur Anwendung kommede Therapie stimme ich mit meinen Patienten ab. 
+Zu den von mir am häufigsten genutzen Therapiemethoden gehören Akupunktur, Moxibustion und Tuina. Die zur Anwendung kommende Therapie stimme ich mit meinen Patienten ab. 
 
 Für die Behandlung wird der Patient zuvor in eine angenehme Position gebracht. Liegen ist für die meisten Patienten am bequemsten.
 
-Die Kosten sind Abhängig von den Therapiemaßnamen meisten trifft jedoch folgende Regelung zu: 
 
-* Termin zur Erstuntersuchung - 50,- Euro. 
-* Folgebehandung - 40,- Euro. 
+# Kosten
 
-Meine Kontakt daten finden sie [hier](/contact).
+Die Kosten sind abhängig von den Therapiemaßnahmen, vor dem Beginn der Therapie informiere ich meine Patienten über die entstehenden Kosten.
+
+Hier finden sie meine [Kontaktdaten](/contact)
+
+
+# Chinesische Medizin
+
+Die Chinesische Medizin ist eine Erfahrungsmedizin die vor mehr dreitausend Jahren aus der Volksmedizin entstanden ist. Es existieren sehr frühe Aufzeichnugen die beschreiben, wann welche Therapie wie einzusetzen ist.
+
+Die Chinesische Medizin stützt sich dabei auf fünf Therapiesäulen:
+
+* Chinesische Arzneimitteltherapie
+* Akupunktur
+* Tuina
+* Diätetik
+* Qigong
+
+Durch die kontinuierliche Dokumentation verfügt die Chinesische Medizin über einen riesigen Erfahrungsschatz.
+
+Chinesische Medizin wird in Deutschland seit mehreren Jahrzehnten zunehmend angewandt. Wenn Sie in Erwägung ziehen, sich mit Chinesischer Medizin behandeln zu lassen, geht es Ihnen wie vielen anderen Menschen in Deutschland.
 
 
 # Akupunktur
 
-Akupunkur ist eine Nadelstichtechnik. Dazu werden dünne Nadeln an Akupunturpunkten in die Haut gestochen. Akupunkturpunkte befinden sich am ganzen Körper. Für die Behandlung wählt der Therapeut einzelne Punkte aus die für die Behandlung zur Anwedung kommen. Diese Auswahl wird von Behandlung zu Behandlung neu entschieden und kann auch bei jeder Behandlung gleich sein. 
+Akupunkur ist eine Nadelstichtechnik. Dazu werden dünne Nadeln an Akupunturpunkten in die Haut gestochen. Akupunkturpunkte befinden sich am ganzen Körper. Für die Behandlung wählt der Therapeut einzelne Punkte aus, die für die Behandlung zur Anwendung kommen. Diese Auswahl wird von Behandlung zu Behandlung neu entschieden und kann auch bei jeder Behandlung gleich sein. 
 
 
-# Moxibustion
+## Moxibustion
 
-Moxibustion gehört zur Akupuntur. Für die Behadlung wird durch das abbrennen von Beifuß wärme erzeugt die für die Therapie genutzt wird.
-
-
-## Tuina
-
-Tuina ist eine mauelle Therapiemethode aus China. Kommt Tuina zum Einsatz wird mit speziellen Techniken über die Muskeln und die Akupunturpunkte behandlet.
+Moxibustion gehört zur Akupunktur. Für die Behandlung wird durch das Abbrennen von Beifuß Wärme erzeugt, die für die Therapie genutzt wird.
 
 
-Die chinesische Medizin ist eine Erfahrungsmedizin die vor mehr dreitausend Jahren aus der Volksmedizin entstanden ist. 
+# Tuina
 
-Es existieren sehr frühe Aufzeichnugen die beschreiben wann welche Therapiemethode wie einzusetzen ist. Die chinesische Medizin ist eine traditionsreiche Medizinform und durch die kontinuierliche Dokumentation existiert ein riesiger Erfahrungsschatz.
-
-Chinesische Medizin wird in Deutschland seit mehreren Jahrzenten, zunehmend angewandt. Wenn Sie sich überlegen sich mit chinesischer Medizin behadeln zu lassen, geht es Ihen wie vielen anderen Menschen in Deutschland.
+Tuina ist eine manuelle Therapiemethode aus China. Kommt Tuina zum Einsatz, wird mit speziellen Techniken über die Muskeln und die Akupunkturpunkte behandelt.
 
 
-# Indikitionen
 
-Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spektrum. Die folgende Aufzählung soll einen Eindruck vermitteln bei welchen Beschwerden Sie durch chinesische Medizin linderung oder Heilung erfahren können.
+# Indikationen
+
+Die Liste der Indikationen für Chinesische Medizin umfasst ein sehr breites Spektrum. Die folgende Aufzählung soll einen Eindruck vermitteln, bei welchen Beschwerden Sie durch Chinesische Medizin Linderung oder Heilung erfahren können.
 
 
 ## Erkrankungen des Stütz- und Bewegungssystems
 
-* Artrose
+* Arthrose
 * LWS-Syndrom
 * Ischialgie
 
@@ -64,10 +72,10 @@ Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spe
 * Trigeminusneuralgie
 
 
-## Psychische und Psychosomaische Störungen 
+## Psychische und psychosomatische Störungen 
 
 * Bulimie, Adipositas
-* Depressieve Verstimmung
+* Depressive Verstimmung
 * Entgiftungsbehandlung
 * Schlafstörungen
 * Erschöpfungszustand
@@ -75,7 +83,7 @@ Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spe
 
 ## Bronchopulmonale Erkrankungen
 
-* Astma
+* Asthma
 * Bronchitis
 
 
@@ -83,7 +91,7 @@ Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spe
 
 * Hypertonie
 * Durchblutungsstörungen
-* Herzrythmusstörungen
+* Herzrhythmusstörungen
 
 
 ## Gastrointestinale Erkrankungen
@@ -100,18 +108,18 @@ Die Liste der Indikationen für chinesische Medizin umfasst ein sehr breites Spe
 * Fertilitätsstörungen
 * Frigidität
 * Schwangerschaftsbegleitung
-* Prämestruelles Syndrom
+* Prämenstruelles Syndrom
 * Klimakterisches Syndrom
 * Zyklusstörungen
-* Dysmenorrhö
+* Dysmenorrhoe
 
 
 ## Hals- Nasen- Ohrenerkrankungen
 
-* Geruchs- und Gemacksstörungen
+* Geruchs- und Geschmacksstörungen
 * Hörsturz
 * Schwerhörigkeit
-* Tititus
+* Tinnitus
 * Schwindel
 * Reisekrankheit
 
