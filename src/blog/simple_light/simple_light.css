@@ -107,7 +107,7 @@ ol li
   height: 170px;}
 
 #logo
-{ width: 860px;
+{ width: 900px;
   position: relative;
   height: 134px;}
 
@@ -134,7 +134,7 @@ ol li
 
 .logo_image {
     float: left;
-    padding: 22px 32px 0 0;
+    padding: 22px 22px 0 0;
     width: 9.5em;
 }
 
@@ -316,3 +316,6 @@ table tr td
 { background: #E5E5DB;
   color: #47433F;
   border-top: 1px solid #FFF;}
+
+iframe
+{ width: 100%; }
