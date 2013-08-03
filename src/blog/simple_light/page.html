@@ -2,6 +2,20 @@
 
 {% block title %}{{ conf.sitename }} – Kontakt{% endblock %}
 
+{% block head %}{{ super() }}
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="js/revolver-jquery/js/revolver.min.js"></script>
+{% endblock %}
+
+
+{% block sidebar %}
+    <div id="slider">
+      <img class="slide" src="img/1.png" alt="Bild 1"/>
+      <img class="slide hidden" src="img/2.png" alt="Bild 2"/>
+      <img class="slide hidden" src="img/3.png" alt="Bild 3"/>
+    </div>
+{% endblock %}
+
 {% block content %}
 <article>
     <header>
@@ -39,3 +53,13 @@
     </div>
 </article>
 {% endblock %}
+
+{% block script_foot %}{{ super() }}
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('#slider').revolver({transition: {type: 'reveal'}});
+      var slider = $('slider').data('revolver');
+    });
+</script>
+{% endblock %}
+

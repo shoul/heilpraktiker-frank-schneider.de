@@ -319,3 +319,16 @@ table tr td
 
 iframe
 { width: 100%; }
+
+#slider
+{ width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative; }
+
+#slider .slide 
+{ left:: 0;
+  top: 0; }
+
+#slider .hidden
+{ display: none; }
