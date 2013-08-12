@@ -14,9 +14,11 @@
     <meta name="description" content="{{ entry.description | e }}" />
     <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
     {%- endif -%}
+    <script src="js/jquery-1.10.2.min.js"></script>
 {% endblock %}
 
 {% block content %}
+
     {% for entry in env.entrylist %}
         {% include 'entry.html' %}
     {% endfor %}
