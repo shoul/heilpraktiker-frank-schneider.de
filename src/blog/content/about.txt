@@ -20,8 +20,13 @@ tags: [Info,]
 
 # Weitere Ausbildungen
 
-* Tuina-Ausbildung (manuelle Therapie der Chinesischen Medizin) 2008-2009 - Annette Jonas, Hamburg
-* Dreijährige Zusatzausbildung in Traditioneller Chinesischer Medizin an der "Shou Zhong, Schule für Chinesische Medizin in Berlin". Dozenten: Jutta Bernig, Stephen Birch, Dr. Uta Feiler, Ina Horn, Renate Ilg, Sigrid Klain, Clemens Prost, Suzanne Rainer, Margot Schlemender-Mischo, Ruthild Schulze, Achim Wypler.
+* Tuina-Ausbildung (manuelle Therapie der Chinesischen Medizin) 
+  2008-2009 - Annette Jonas, Hamburg
+* Dreijährige Zusatzausbildung in Traditioneller Chinesischer Medizin an 
+  der "Shou Zhong, Schule für Chinesische Medizin in Berlin". 
+  Dozenten: Jutta Bernig, Stephen Birch, Dr. Uta Feiler, Ina Horn, Renate Ilg, 
+  Sigrid Klain, Clemens Prost, Suzanne Rainer, Margot Schlemender-Mischo, 
+  Ruthild Schulze, Achim Wypler.
 * Ohrakupunktur - Michael Noack, Berlin
 * Kräutertherapie für Kinder - Julian Scott, GB
 * Kindertuina - Annete Jonas, Hamburg

@@ -6,17 +6,23 @@ tags: [Info,]
 ---
 
 
-
-<address>
-  <strong>Frank Schneider</strong><br>
-  Gutav-Adolf-Str 43 <br>
-  04105 Leipzig <br>
+<address itemscope itemtype="http://data-vocabulary.org/Organization">
+  <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong><br>
+  <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+    <span itemprop="street-address">
+      Gutav-Adolf-Str 43 <br>
+    </span>
+    04105
+    <span itemprop="locality">
+      Leipzig <br>
+    </span>
+    <span itemprop="region">Sachsen</span> <br>
+  </span>
   <br>
-  Tel: 0341 / 2290 7711<br>
-  Mobil: 0178 / 333 59 99<br>
+  Tel: <span itemprop="tel">0341 / 2290 7711</span><br>
+  Mobil: <span itemprop="tel">0178 / 333 59 99</span><br>
   Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">info@heilpraktiker-frank-schneider.de</a><br>
-
+  <a href="http://www.heilpraktiker-frank-schneider.de/" itemprop="url"></a>
 </address>
 
 <iframe width="610" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://m.osmtools.de/?lon=12.360373377672&lat=51.343460927418&zoom=15&mlon=12.360373377672&mlat=51.343460927418&icon=4&iframe=1" ></iframe>
-
