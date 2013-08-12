@@ -126,7 +126,7 @@ ol li
 
 #logo h1, #logo h1 a, #logo h1 a:hover
 { padding: 32px 0 0 0;
-    /** 
+    /**
   color: #2DB8CD;
   */
   color: #BBB;
@@ -187,8 +187,8 @@ ul#menu li a:hover
 
 .sidebar
 { float: right;
-  width: 190px;
-  padding: 0 15px 20px 15px;}
+  width: 200px;
+}
 
 .sidebar ul
 { width: 178px;
@@ -212,7 +212,7 @@ ul#menu li a:hover
   width: 613px;
   padding: 0;}
 
-header > time 
+header > time
 { float: right;}
 
 #footer
@@ -319,3 +319,31 @@ table tr td
 
 iframe
 { width: 100%; }
+
+#site_content .slider {
+  display: block;
+  background-color: #fff;
+  padding: 5px;
+  overflow: hidden;
+}
+#site_content .slider img {
+  display: block;
+  background-color: #fff;
+  padding: 3px;
+  margin-bottom: 5px;
+  width: 180px;
+  border: 0.5px solid #757575;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+content: "";
+display: table;
+}
+.group:after {
+clear: both;
+}
+.group {
+zoom: 1; /* IE6&7 */
+}
