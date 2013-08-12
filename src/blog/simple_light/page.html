@@ -3,25 +3,31 @@
 {% block title %}{{ conf.sitename }} – Kontakt{% endblock %}
 
 {% block head %}{{ super() }}
-  <script src="js/jquery-1.10.2.min.js"></script>
-  <script src="js/revolver-jquery/js/revolver.min.js"></script>
+  <script src="/js/jquery-1.10.2.min.js"></script>
 {% endblock %}
 
 
 {% block sidebar %}
-    <div id="slider">
-      <img class="slide" src="img/1.png" alt="Bild 1"/>
-      <img class="slide hidden" src="img/2.png" alt="Bild 2"/>
-      <img class="slide hidden" src="img/3.png" alt="Bild 3"/>
+        <h3>Themen</h3>
+        <ul>
+        {% for tag in env.tag_cloud %}
+          <li class="tag-{{ tag.step }}"><a href="/blog/tag/{{ tag.name | safeslug }}/">{{ tag.name }}</a></li>
+        {% endfor %}
+        </ul>
+
+    <div class="slider">
+      <img src="/img/1652.png" alt="Gib jedem Tag die Chance, der schönste Deines Lebens zu werden.">
+      <img src="/img/1833.png" alt="Besprechungsraum.">
+      <img src="/img/1726.png" alt="Hand mit Akupunkturnadel bei der Behandlung."/>
+      <img src="/img/1657.png" alt="Liege mit Spiegel.">
     </div>
 {% endblock %}
 
 {% block content %}
+
 <article>
     <header>
-        <h1>
-            <a href="{{ env.path + entry.permalink }}" rel="bookmark canonical">{{ entry.title }}</a>
-        </h1>
+        <h1><a href="{{ env.path + entry.permalink }}" rel="bookmark canonical">{{ entry.title }}</a></h1>
     </header>
     {{ entry.content }}
     <div class="comments">
@@ -55,11 +61,4 @@
 {% endblock %}
 
 {% block script_foot %}{{ super() }}
-<script type="text/javascript">
-    $(document).ready(function() {
-      $('#slider').revolver({transition: {type: 'reveal'}});
-      var slider = $('slider').data('revolver');
-    });
-</script>
 {% endblock %}
-
