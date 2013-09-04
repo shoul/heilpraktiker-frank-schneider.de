@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock title %}</title>
   <link media="all" rel="stylesheet" href="{{  env.path + '/simple_light.css' }}" />
-  <link href="/logo.ico" rel="shortcut icon" />
+  <link href="/logo.ico" rel="icon" sizes="16x16 32x32" />
   {% if 'sitemap' in env.views -%}
     <link href="{{ env.views.sitemap.path }}" type="application/xml" title="Sitemap">
   {%- endif%}
@@ -15,7 +15,7 @@
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <meta name="description" content="{% block description -%}{%- endblock %}" />
+	<meta name="description" content="{% block description -%}{%- endblock %}" />
   <meta name="keywords" content="{% block keywords -%}{%- endblock %}" />
   {%- endblock %}
 </head>
