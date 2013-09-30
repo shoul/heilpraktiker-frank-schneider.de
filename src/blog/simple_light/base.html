@@ -5,6 +5,7 @@
   {% block head -%}
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock title %}</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
   <link media="all" rel="stylesheet" href="{{  env.path + '/simple_light.css' }}" />
   <link href="/favicon.ico" rel="icon" sizes="16x16 32x32" />
   {% if 'sitemap' in env.views -%}
