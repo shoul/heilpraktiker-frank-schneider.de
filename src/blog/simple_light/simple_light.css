@@ -335,6 +335,10 @@ iframe
   border: 0.5px solid #757575;
 }
 
+#map {
+  height: 600px;
+}
+
 /* clearfix */
 .group:before,
 .group:after {
@@ -347,3 +351,5 @@ clear: both;
 .group {
 zoom: 1; /* IE6&7 */
 }
+
+
