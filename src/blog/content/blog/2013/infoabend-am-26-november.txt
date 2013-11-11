@@ -5,7 +5,7 @@ tags: [Info,]
 draft: False
 ---
 
-# Infoabend Chinesische Medizin
+<!--# Infoabend Chinesische Medizin-->
 
 Akupunktur ist ein geprüftes und allgemein akzeptiertes Verfahren und kommt
 heute bei einer <a href="/indications/">Vielzahl von Leiden</a> sehr oft zur
@@ -23,13 +23,13 @@ Hiermit lade ich Sie herzlich ein, sich in den Räumen meiner Praxis zu diesem
 Thema zu zu informieren. Es wir einen Vortrag geben der ca zwanzig Minuten
 dauert. Danach stehe ich Ihnen für Fragen zur Verfügung.
 
-<br>
+
+# Dienstag, 26. November um 18:00 Uhr
+
 heilpraktiker-frank-schneider.de<br>
 Gustav-Adolf-Str. 43<br>
 04105 Leipzig
 
-Dienstag, 26. November um 18:00 Uhr
+Eine Karte finden Sie auf meiner <a href="/contact/">Kontaktseite</a>.
 
-<br>
-Ihr, Heilpraktiker Frank Schneider
-
+Ich freue mich auf Sie
