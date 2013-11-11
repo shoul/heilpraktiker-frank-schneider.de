@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6
   margin: 0 0 14px 0;
   padding: 10px 0 5px 0;}
 
+article h1
+{ font: normal 205% 'century gothic', arial, sans-serif;
+  margin: 80px 0 35px 0;
+  color: #B60000;}
+
 h2
 { font: normal 165% 'century gothic', arial, sans-serif;
   color: #B60000;}
@@ -114,7 +119,7 @@ ol li
 #logo h1, #logo h2
 { font: normal 220% "century gothic", arial, sans-serif;}
 
-#logo h1
+#logo y1
 { padding: 24px 0 0 0;
   margin: 0;
   color: #FFF;}
@@ -177,6 +182,9 @@ ul#menu li.selected a, ul#menu li.selected a:hover
 ul#menu li a:hover
 { color: #B60000;}
 
+article
+{ margin: 70px;}
+
 #site_content
 { width: 858px;
   overflow: hidden;
@@ -196,7 +204,8 @@ ul#menu li a:hover
   margin: 4px 0 30px 0;}
 
 .sidebar li
-{ padding: 0 0 0 0; }
+{ padding: 0 0 0 0; 
+  margin-left: 20px;}
 
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 0;
