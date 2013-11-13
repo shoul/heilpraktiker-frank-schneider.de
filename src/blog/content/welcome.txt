@@ -7,7 +7,7 @@ type: page
 
 <div class="hint" style="font-size: 15px; font-weight: bold; padding: 20px;">
 <span style="color: back;">Aktuell:</span>
-<a style="border-bottom: 1px dotted;" href="/blog/2013/infoabend-am-26-november/">Infoabend am 28. November</a>
+<a href="/blog/2013/infoabend-am-26-november/">Infoabend am 28. November</a>
 </div><br />
 
 
