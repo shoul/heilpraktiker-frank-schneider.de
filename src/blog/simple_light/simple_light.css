@@ -185,6 +185,12 @@ ul#menu li a:hover
 article
 { margin: 70px;}
 
+article a:hover
+{ border-bottom: 1px solid;}
+
+article a
+{ border-bottom: 1px dotted;}
+
 #site_content
 { width: 858px;
   overflow: hidden;
