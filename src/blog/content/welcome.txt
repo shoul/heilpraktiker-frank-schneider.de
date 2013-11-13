@@ -5,6 +5,12 @@ date: 05.07.2013, 11:38
 type: page
 ---
 
+<div class="hint" style="font-size: 15px; font-weight: bold; padding: 20px;">
+<span style="color: back;">Aktuell:</span>
+<a href="/blog/2013/infoabend-am-26-november/">Infoabend am 28. November</a>
+</div><br />
+
+
 Willkommen in meiner Heilpraktikerpraxis in der ich vorwiegend mit
 [Therapiemethoden](/therapy) der Chinesischen Medizin arbeite. Die Chinesische
 Medizin ist eine Erfahrungsmedizin die seit dreitausend Jahren Anwendung

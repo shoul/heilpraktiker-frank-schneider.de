@@ -1,11 +1,15 @@
 ---
-title: Infoabend am 26. November
+title: Infoabend am 28. November
+permalink: /blog/2013/infoabend-am-26-november/
 date: 11.11.2013, 17:43
 tags: [Info,]
 draft: False
 ---
 
-<!--# Infoabend Chinesische Medizin-->
+<div class="hint" style="font-size: 15px; font-weight: bold; padding: 20px;">
+<span style="color: red;">Achtung Terminänderung:</span>
+Der Termin war ursprünglich für Dienstag den 26. November vorgesehen und findet nun am
+Donnerstag den 28. November statt. Es bleibt bei 18:00 Uhr. </div><br />
 
 Akupunktur ist ein geprüftes und allgemein akzeptiertes Verfahren und kommt
 heute bei einer <a href="/indications/">Vielzahl von Leiden</a> sehr oft zur
@@ -24,12 +28,16 @@ Thema zu zu informieren. Es wir einen Vortrag geben der ca zwanzig Minuten
 dauert. Danach stehe ich Ihnen für Fragen zur Verfügung.
 
 
-# Dienstag, 26. November um 18:00 Uhr
+# Donnerstag, 28. November um 18:00 Uhr
+
+<p style="padding: 20px;"> <span style="border-bottom: 3px dotted rgb(164, 170, 4);">
+Sie finden meine Praxisräume in der:
+<em style="font-weight: bold;">Joga Parxis Schütte</em>.</span></p>
 
 heilpraktiker-frank-schneider.de<br>
 Gustav-Adolf-Str. 43<br>
 04105 Leipzig
 
-Eine Karte finden Sie auf meiner <a href="/contact/">Kontaktseite</a>.
+Eine Anfahrtsbeschreibung und eine Karte finden Sie auf meiner <a href="/contact/">Kontaktseite</a>.
 
 Ich freue mich auf Sie
