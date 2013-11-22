@@ -6,6 +6,10 @@ type: page
 tags: [Info,]
 ---
 
+<p class="centert" style="margin-bottom: 70px;">
+<img class="shadow" alt="Frank Schneider" src="/img/fs.png"><br>
+</p>
+
 * Geboren 1968 in Fulda
 * Verheiratet, eine Tochter
 
@@ -30,4 +34,3 @@ tags: [Info,]
 * Ohrakupunktur - Michael Noack, Berlin
 * Kräutertherapie für Kinder - Julian Scott, GB
 * Kindertuina - Annete Jonas, Hamburg
-
