@@ -3,5 +3,6 @@ layout/
 src/wiki/
 src/blog/.cache/
 src/blog/output/
+.sass-cache
         
 trac/
