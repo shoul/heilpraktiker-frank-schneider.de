@@ -6,8 +6,8 @@ tags: [Info,]
 draft: False
 ---
 
-<div class="hint" style="font-size: 15px; font-weight: bold; padding: 20px;">
-<span style="color: red;">Achtung Terminänderung:</span>
+<div class="hint" style="font-size: 15py; font-weight: bold; padding: 20px;">
+<span style="color: rgba(45, 184, 205, 1);">Achtung Terminänderung:</span>
 Der Termin war ursprünglich für Dienstag den 26. November vorgesehen und findet nun am
 Donnerstag den 28. November statt. Es bleibt bei 18:00 Uhr. </div><br />
 
