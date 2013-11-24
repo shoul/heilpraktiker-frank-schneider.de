@@ -6,8 +6,8 @@ tags: [Info,]
 draft: False
 ---
 
-<div class="hint" style="font-size: 15px; font-weight: bold; padding: 20px;">
-<span style="color: red;">Achtung Terminänderung:</span>
+<div class="hint" style="font-size: 15py; font-weight: bold; padding: 20px;">
+<span style="color: rgba(45, 184, 205, 1);">Achtung Terminänderung:</span>
 Der Termin war ursprünglich für Dienstag den 26. November vorgesehen und findet nun am
 Donnerstag den 28. November statt. Es bleibt bei 18:00 Uhr. </div><br />
 
@@ -24,7 +24,7 @@ und erkläre anhand von Beispielen einfache Muster für die Diagnose und die
 Therapie.
 
 Hiermit lade ich Sie herzlich ein, sich in den Räumen meiner Praxis zu diesem
-Thema zu zu informieren. Es wir einen Vortrag geben der ca zwanzig Minuten
+Thema zu zu informieren. Es wird einen Vortrag geben der ca zwanzig Minuten
 dauert. Danach stehe ich Ihnen für Fragen zur Verfügung.
 
 
@@ -32,7 +32,7 @@ dauert. Danach stehe ich Ihnen für Fragen zur Verfügung.
 
 <p style="padding: 20px;"> <span style="border-bottom: 3px dotted rgb(164, 170, 4);">
 Sie finden meine Praxisräume in der:
-<em style="font-weight: bold;">Joga Parxis Schütte</em>.</span></p>
+<em style="font-weight: bold;">Joga Praxis Schütte</em>.</span></p>
 
 heilpraktiker-frank-schneider.de<br>
 Gustav-Adolf-Str. 43<br>

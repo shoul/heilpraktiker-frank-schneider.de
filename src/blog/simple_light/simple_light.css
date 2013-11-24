@@ -354,6 +354,21 @@ iframe
   height: 600px;
 }
 
+/* Conter text */
+.centert {
+  text-align: center;
+}
+
+/* Box shadow */
+.shadow {
+  box-shadow: 0 0 5px black;
+  margin: 20px;
+}
+
+.floatr {
+  float: right;
+}
+
 /* clearfix */
 .group:before,
 .group:after {
