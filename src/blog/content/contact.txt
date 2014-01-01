@@ -6,7 +6,7 @@ tags: [Info,]
 ---
 
 <p style="padding: 20px;"> <span style="border-bottom: 3px dotted rgb(164, 170, 4);">
-Sie finden meine Praxisräume in der:
+Meine Praxisräume sind in der:
 <em style="font-weight: bold;">Joga Praxis Schütte</em>.</span></p>
 
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
