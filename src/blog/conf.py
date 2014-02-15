@@ -61,4 +61,5 @@ ENGINE = 'acrylamid.templates.jinja2.Environment'
 DATE_FORMAT = '%d.%m.%Y, %H:%M'
 DEPLOYMENT = {
     'default': 'rsync -av $OUTPUT_DIR hpfs@ursa.uberspace.de:~/html/',
+    'clear_deploy': 'rsync -av --delete $OUTPUT_DIR hpfs@ursa.uberspace.de:~/html/',
 }
