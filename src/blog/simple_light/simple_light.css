@@ -255,6 +255,18 @@ header > time
 { line-height: 22px;
   padding: 0;}
 
+.italic
+{ font-style: italic;}
+
+.tiny
+{ font-size: small; }
+
+.strong
+{ font-weight: bold; }
+
+.link_like
+{ color: #A4AA04; }
+
 footer a
 { color: #A4AA04; }
 
