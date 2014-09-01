@@ -5,21 +5,18 @@ type: page
 tags: [Info,]
 ---
 
-<p style="padding: 20px;"> <span style="border-bottom: 3px dotted rgb(164, 170, 4);">
-Meine Praxisräume sind in der:
-<em style="font-weight: bold;">Joga Praxis Schütte</em>.</span></p>
+Da meine Praxis eine reine <strong class="bold">Bestellpraxis</strong> ist,
+bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich leicht
+per Email oder Telefon erreichen.
 
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
   <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong><br>
   <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
     <span itemprop="street-address">
-      Gutav-Adolf-Str 43 <br>
+      Alte Straße 31 <br>
     </span>
-    04105
-    <span itemprop="locality">
-      Leipzig <br>
-    </span>
-    <span itemprop="region">Sachsen</span> <br>
+    04299
+    <span itemprop="chity">Leipzig</span> <br>
   </span>
   <br>
   Tel: <span itemprop="tel">0341 / 2290 7711</span><br>
@@ -34,14 +31,14 @@ Meine Praxisräume sind in der:
 
 
 <script>
-var map = L.map('map').setView([51.343428, 12.360393] , 15);
+var map = L.map('map').setView([51.32896, 12.34009] , 16);
 
-L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
   }).addTo(map);
 
 
-L.marker([51.343428, 12.360393]).addTo(map)
+L.marker([51.32890, 12.34009]).addTo(map)
   .bindPopup("<b>Herzlich Willkommen</b><br />in meiner Praxis.");
 </script>
