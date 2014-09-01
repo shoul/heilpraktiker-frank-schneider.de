@@ -10,44 +10,84 @@ tags: [Info,]
 <img class="shadow" alt="Frank Schneider" src="/img/fs.png"><br>
 </p>
 
+<p class="center"><span class="italic">"Man sollte nicht daran denken, fertig zu werden, wie
+man ja nicht reift, um anzukommen, sondern um zu reifen."</span><br><span
+class="tiny link_like">Johan Wolfgang von Goethe</span></p>
+
 * Geboren 1968 in Fulda
 * Verheiratet, eine Tochter
 
 
-# Berufsausbildungen
+# Meine Werdegang
 
-* Ausbildung zum Orthopädiemechaniker. Ausgeübt von 1988 - 1998
-* Schauspielausbildung an der Schule für Schauspiel Hamburg. Ausgeübt von 1999 - 2008
-* Ausbildung zum Heilpraktiker an der Berliner Schule für Heilpraktiker 
-* Amtsärztlich geprüfter Heilpraktiker seit 2008
+In meinem Erstberuf als <span class="strong" >Orthopädiemechaniker</span>
+konnte ich sehr viel über Anatomie lernen was für mich damals und heute überaus
+nützlich ist. 
 
-## Orthopädiemechaniker
+Auf meiner Suche nach Selbstverwirklichung habe ich dann eine Schauspielschule
+besucht und dort sehr viel über Kunst, Menschen, Impulse und über mich selbst
+gelernt.  Meine Kenntisse habe ich dann in Sieben Jahren in denen ich als
+Schauspieler arbeiten durfte, in mehr als fünfhundert Bühnenvorstellungen,
+anwenden können.
 
-Die Ausbildung zum Orthopädiemechaniker beinhaltet in großem Umfang
-orthopädische Kenntnisse des menschlichen Körpers. Der Orthopädiemechaniker
-stellt orthopädische Hilfsmittel an die den Betroffenen durch Stützung und
-Ersatz von Körperteilen unterstüzen. Nach bestehen der Gesellenprüfung im
-1988 arbeitet ich in diesem Beruf bis 1998.
-
-Berufsbedingt hatte ich sehr viel Kontakt mit Chemikailen und entwickelte eine
-Kontaktallergie, wodurch ich dieses Beruf nicht mehr ausüben konnte. Auf der
-Suche nach neuen Herausforderungen wurde ich dann Schauspieler.
+Durch die Geburt unserer Tochter hatte ich dann das Bedürniss beruflich nicht
+mehr so viel zu reisen und habe mich für den Beruf des Heilpraktikers
+entschieden. 
 
 
-## Schauspieler
+## Meine Erfahrungen mit Akupunktur
+
+Damals hatte ich eine Allergie die sich trotz der Einnahme von Antihistaminika
+und Kortison-Preparaten nicht zu behandeln war. Zu dieser Zeit hatte ich
+bereits seit mereren Wochen sehr starke Beschwerden und war bei verschiedenen
+Ärzten ohne dass sich eine Besserung einstellte.
+
+Aus ratlosigkeit ging ich dann das erste Mal zu einem Heilpraktiker. Bis dahin
+hatte ich, wie ich zugeben muss, Vorurteile. Der Behandlungserfolg war enorm.
+
+Ich habe mich daraufhin mit Akupunktur und chinesischer Medizin beschäftigt
+und erstaunt festgestellt, dass China gerade medizinisch gesehen schon sehr
+Früh ein hochentwickeltes Land war.  Damals hätte ich nie gedacht dass diese
+Medizin schon seit mehr als zweitausend Jahren mit Theoriegrundlagen angewendet
+wird, dass durch Akupunktur Anestesie möglich ist oder dass es um 11.000 n.
+Chr. in China tatsächlich schon Apotheken mit Nachtdienst gab.
 
 
+## Heilpraktiker-Ausbildung
+
+Meine 
+<span class="strong" >Ausbildung zum Heilpraktiker</span> machte ich bei der 
+<a target="_blank"
+href="http://www.heilpraktikerintensivausbildungen.de">Berliner Schule für
+Heilkunde</a>. Hier nochmals vielen Dank an Jürgen und Abadh. Die Ausbildung
+hat bei Euch viel Spass gemacht. <span class="strong" >Bestehen der Heilpraktikerprüfung am 26. Mai
+2008</span>.
+
+In <span class="strong">chinesischer Medizin</span> ließ ich mich bei der <a target="_blank"
+href="http://abz-ost.de/">Shou Zhong - Schule für Traditionelle Chinesische
+Medizin</a> ausbilden.  Die <span class="strong">Akupunkturausbildung</span>
+bestand aus 1270 UE, davon ca 450 UE Lehrpraxis.  Meine <span
+class="strong">Tuina</span>-Ausbildung umfasste 140 UE und enthielt zur Hälfte
+Lehrpraxis.  Tunina ist die manuelle Therapie der chinesischen Medizin. Sie ist
+ebenfalls mehrer tausen Jahre alt.  Hier werden die Meridiane und
+Akupunkturpunkte durch Druck-, Schiebe-, Streich-, Klopf- und Greiftechniken
+stimmuliert.
+
+Mit dem 8. August 2008 war ich in Berin <span class="strong" >Heilpraktiker mit eigener Praxis</span>.
+
+Seit dem ersten September 2013 praktiziere ich hier in Leipzig. 
+<a href="/contact/" >Hier</a> ist mein Therapieraum.
 
 
-# Weitere Ausbildungen
+### Weitere Ausbildungen
 
-* Tuina-Ausbildung (manuelle Therapie der Chinesischen Medizin) 
-  2008-2009 - Annette Jonas, Hamburg
-* Dreijährige Zusatzausbildung in Traditioneller Chinesischer Medizin an 
-  der "Shou Zhong, Schule für Chinesische Medizin in Berlin". 
-  Dozenten: Jutta Bernig, Stephen Birch, Dr. Uta Feiler, Ina Horn, Renate Ilg, 
-  Sigrid Klain, Clemens Prost, Suzanne Rainer, Margot Schlemender-Mischo, 
-  Ruthild Schulze, Achim Wypler.
 * Ohrakupunktur - Michael Noack, Berlin
 * Kräutertherapie für Kinder - Julian Scott, GB
 * Kindertuina - Annete Jonas, Hamburg
+
+<!--
+# Was mögen die Menschen die zu mir kommen?
+
+* Das ich Ihnen zuhöre und mir Zeit nehme.
+* Durch meine Therapieerfahrung sind sie in guten Händen.
+-->
