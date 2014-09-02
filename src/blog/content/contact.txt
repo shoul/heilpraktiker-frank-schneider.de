@@ -10,18 +10,18 @@ bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich leicht
 per Email oder Telefon erreichen.
 
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
-  <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong><br>
+  <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong>  
   <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
     <span itemprop="street-address">
-      Alte Straße 31 <br>
+      Alte Straße 31   
     </span>
     04299
-    <span itemprop="chity">Leipzig</span> <br>
+    <span itemprop="chity">Leipzig</span>   
   </span>
-  <br>
-  Tel: <span itemprop="tel">0341 / 2290 7711</span><br>
-  Mobil: <span itemprop="tel">0178 / 333 59 99</span><br>
-  Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">info@heilpraktiker-frank-schneider.de</a><br>
+
+  Tel: <span itemprop="tel">0341 / 2290 7711</span>  
+  Mobil: <span itemprop="tel">0178 / 333 59 99</span>  
+  Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">info@heilpraktiker-frank-schneider.de</a>  
   <a href="http://www.heilpraktiker-frank-schneider.de/" itemprop="url"></a>
 </address>
 
