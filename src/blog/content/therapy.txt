@@ -6,13 +6,14 @@ type: page
 tags: [Therapie,]
 ---
 
+In meiner Praxis wende ich eine einige Therapiemethoden an. Die häufigsten
+stelle ich hier vor.
 
-Zu den von mir am häufigsten genutzen Therapiemethoden gehören Akupunktur,
-Moxibustion und Tuina. Die zur Anwendung kommende Therapie stimme ich mit
-meinen Patienten ab. 
+# Akupunktur
 
-Für die Behandlung wird der Patient zuvor in eine angenehme Position gebracht.
-Liegen ist für die meisten Patienten am bequemsten.
+Die Akupunktur ist eine sehr mächtige Behandlungsmethode und eignet sich gut
+für viele Störungsbilder. Für die Behandlung wählt der Therapeut einzelne
+Punkte aus, die für die Behandlung zur Anwendung kommen.
 
 
 # Kosten
@@ -20,7 +21,9 @@ Liegen ist für die meisten Patienten am bequemsten.
 Die Kosten sind abhängig von den Therapiemaßnahmen, vor dem Beginn der Therapie
 informiere ich meine Patienten über die entstehenden Kosten.
 
-Hier finden sie meine [Kontaktdaten](/contact)
+> Erstanamnese ca. zwei Stunden: 74,- €  
+> Behandlung ca. eine Stunde: 37,- €  
+> Hier finden sie meine [Kontaktdaten](/contact)
 
 
 # Chinesische Medizin
@@ -43,15 +46,6 @@ einen riesigen Erfahrungsschatz.
 Chinesische Medizin wird in Deutschland seit mehreren Jahrzehnten zunehmend
 angewandt. Wenn Sie in Erwägung ziehen, sich mit Chinesischer Medizin behandeln
 zu lassen, geht es Ihnen wie vielen anderen Menschen in Deutschland.
-
-
-# Akupunktur
-
-Akupunkur ist eine Nadelstichtechnik. Dazu werden dünne Nadeln an
-Akupunturpunkten in die Haut gestochen. Akupunkturpunkte befinden sich am
-ganzen Körper. Für die Behandlung wählt der Therapeut einzelne Punkte aus, die
-für die Behandlung zur Anwendung kommen. Diese Auswahl wird von Behandlung zu
-Behandlung neu entschieden und kann auch bei jeder Behandlung gleich sein. 
 
 
 ## Moxibustion
