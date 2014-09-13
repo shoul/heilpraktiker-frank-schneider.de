@@ -10,32 +10,42 @@ tags: [Info,]
 <img class="shadow" alt="Frank Schneider" src="/img/fs.png"><br>
 </p>
 
-<p class="center"><span class="italic">"Man sollte nicht daran denken, fertig zu werden, wie
-man ja nicht reift, um anzukommen, sondern um zu reifen."</span><br><span
-class="tiny link_like">Johan Wolfgang von Goethe</span></p>
+<!--
+> <span class="italic">Wenn ich etwas tue das mein Leben nicht bereichert, ist
+> eine Veränderung meines Verhaltens ohne das Gefühl von Scham, Schuld und
+> Verachtung meiner Person, in zwei Richtungen möglich:
+>
+> Erstens in die Richtung die ich gehen möchte,  
+> Zweitens durch eine Veränderung, motiviert durch Respekt und Empatie für mich selbst.</span>  
+>
+> <span class="tiny link_like">Marshall B. Rosenberg - Gewaltfreie Kommunikation</span>
+-->
 
-* Geboren 1968 in Fulda
-* Verheiratet, eine Tochter
+In meinem ersten Beruf als Orthopädiemechaniker lernte ich viel über die
+Anatomie des Menschen. Als ich in dieser Tätigkeit keine ausreichenden
+Möglichkeiten für mein Bedürfniss nach Weiterentwicklung gesehen habe wurde ich
+Schauspieler. Hier konnte ich sehr interessante Zusammenhänge über menschliche
+Bedürfnisse und die dazugehörige Kommunikation erforschen.
+Fastsinnierend finde ich dabei vor allem die häufige Diskrepanz zwischen
+Bedürfnis und Kommunikation.
+
+Meine Kenntisse habe ich Sieben Jahre als Schauspieler, in mehr als fünfhundert
+Bühnenvorstellungen, anwenden können. Nach der Geburt meiner Tochter wurde es
+mir wichtig Erziehungsaufgaben wahrzunehmen und mich stärker mit sozialen und
+gesundheitlichen Aspekten zu beschäftigen.
 
 
-# Meine Werdegang
+## Heilpraktiker-Ausbildung
 
-In meinem Erstberuf als <span class="strong" >Orthopädiemechaniker</span>
-konnte ich sehr viel über Anatomie lernen was für mich damals und heute überaus
-nützlich ist. 
-
-Auf meiner Suche nach Selbstverwirklichung habe ich dann eine Schauspielschule
-besucht und dort sehr viel über Kunst, Menschen, Impulse und über mich selbst
-gelernt.  Meine Kenntisse habe ich dann in Sieben Jahren in denen ich als
-Schauspieler arbeiten durfte, in mehr als fünfhundert Bühnenvorstellungen,
-anwenden können.
-
-Durch die Geburt unserer Tochter hatte ich dann das Bedürniss beruflich nicht
-mehr so viel zu reisen und habe mich für den Beruf des Heilpraktikers
-entschieden. 
+Die Ausbildung als Heilpraktiker machte ich bei der [Berliner Schule für
+Heilkunde](http://www.heilpraktikerintensivausbildungen.de/).  Vielen Dank an
+Jürgen und Abadh für die Freude mit der Ihr Eure Arbeit tut. Am 26. Mai 2008
+habe ich die Heilpraktikerprüfung bestanden.
 
 
-## Meine Erfahrungen mit Akupunktur
+## Chinesische Medizin
+
+### Meine Erfahrungen mit Akupunktur
 
 Damals hatte ich eine Allergie die sich trotz der Einnahme von Antihistaminika
 und Kortison-Preparaten nicht zu behandeln war. Zu dieser Zeit hatte ich
@@ -47,21 +57,12 @@ hatte ich, wie ich zugeben muss, Vorurteile. Der Behandlungserfolg war enorm.
 
 Ich habe mich daraufhin mit Akupunktur und chinesischer Medizin beschäftigt
 und erstaunt festgestellt, dass China gerade medizinisch gesehen schon sehr
-Früh ein hochentwickeltes Land war.  Damals hätte ich nie gedacht dass diese
-Medizin schon seit mehr als zweitausend Jahren mit Theoriegrundlagen angewendet
-wird, dass durch Akupunktur Anestesie möglich ist oder dass es um 11.000 n.
-Chr. in China tatsächlich schon Apotheken mit Nachtdienst gab.
+Früh ein hochentwickeltes Land war.  Damals hätte ich nie gedacht dass die **chinesische Medizin**
+Medizin schon seit mehr als zweitausend Jahren auf der Basis von
+Theoriegrundlagen angewendet wird oder dass es um 11.000 n. Chr. in China
+tatsächlich schon Apotheken mit Nachtdienst gab.
 
-
-## Heilpraktiker-Ausbildung
-
-Meine 
-<span class="strong" >Ausbildung zum Heilpraktiker</span> machte ich bei der 
-<a target="_blank"
-href="http://www.heilpraktikerintensivausbildungen.de">Berliner Schule für
-Heilkunde</a>. Hier nochmals vielen Dank an Jürgen und Abadh. Die Ausbildung
-hat bei Euch viel Spass gemacht. <span class="strong" >Bestehen der Heilpraktikerprüfung am 26. Mai
-2008</span>.
+### Ausbildung in Chinesischer Medizin
 
 In <span class="strong">chinesischer Medizin</span> ließ ich mich bei der <a target="_blank"
 href="http://abz-ost.de/">Shou Zhong - Schule für Traditionelle Chinesische
@@ -73,10 +74,9 @@ ebenfalls mehrer tausen Jahre alt.  Hier werden die Meridiane und
 Akupunkturpunkte durch Druck-, Schiebe-, Streich-, Klopf- und Greiftechniken
 stimmuliert.
 
-Mit dem 8. August 2008 war ich in Berin <span class="strong" >Heilpraktiker mit eigener Praxis</span>.
-
-Seit dem ersten September 2013 praktiziere ich hier in Leipzig. 
-<a href="/contact/" >Hier</a> ist mein Therapieraum.
+> <span class="italic">"Man sollte nicht daran denken, fertig zu werden, wie
+> man ja nicht reift, um anzukommen, sondern um zu reifen."</span> <span
+> class="tiny link_like">Johan Wolfgang von Goethe</span>
 
 
 ### Weitere Ausbildungen
@@ -85,9 +85,13 @@ Seit dem ersten September 2013 praktiziere ich hier in Leipzig.
 * Kräutertherapie für Kinder - Julian Scott, GB
 * Kindertuina - Annete Jonas, Hamburg
 
-<!--
-# Was mögen die Menschen die zu mir kommen?
 
-* Das ich Ihnen zuhöre und mir Zeit nehme.
-* Durch meine Therapieerfahrung sind sie in guten Händen.
--->
+## Meine Praxis
+
+
+Am 8. August 2008 eröffnete ich, damals noch in Berin, meine eigene
+**Heilpraktikerpraxis**.
+
+Seit dem ersten September 2013 praktiziere ich hier in Leipzig. Derzeit
+praktiziere ich in dem <a href="/contact/#Praxisraum" >Praxisraum</a> von Oliver.
+
