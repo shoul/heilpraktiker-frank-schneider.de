@@ -50,6 +50,8 @@
                   <li class=" tag-{{ tag.step }}"><a href="/blog/tag/{{ tag.name | safeslug }}/" >{{ tag.name }}</a></li>
                 {% endfor %}
                 </ul>
+          <li><a href="{{ env.path + '/blog/articles/' }}" rel="contents">Archiv</a></li>
+          <li><a href="{{ env.path + '/blog/atom/' }}" rel="alternate">atom</a></li>
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -150,10 +152,6 @@
         </div>
       </div>
     </div>
-<blockquote class="blockquote-reverse">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-  <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-</blockquote>
       {% block script_footer %}
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
