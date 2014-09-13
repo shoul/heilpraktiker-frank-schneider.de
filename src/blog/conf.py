@@ -11,7 +11,7 @@ EMAIL = 'info@heilpraktiker-frank-schneider.de'
 FILTERS = ['markdown+codehilite(css_class=highlight)', 'hyphenate', 'h1']
 
 VIEWS = {
-    '/blog/': {'filters': 'summarize', 'view': 'index',
+    '/blog/': {'filters': 'summarize+50', 'view': 'index',
           'pagination': '/blog/page/:num/'},
 
     '/blog/:year/:slug/': {'views': ['entry', 'draft']},
