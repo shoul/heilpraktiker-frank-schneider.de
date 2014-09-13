@@ -5,17 +5,17 @@ type: page
 tags: [Info,]
 ---
 
-Da meine Praxis eine reine <strong class="bold">Bestellpraxis</strong> ist,
-bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich leicht
-per Email oder Telefon erreichen.
+> Da meine Praxis eine reine <strong class="bold">Bestellpraxis</strong> ist,
+> bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich 
+> per Email oder Telefon erreichen.
 
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
   <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong>  
   <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
     <span itemprop="street-address">
-      Alte Straße 31   
+      Gemeindeamtsstraße 17
     </span>
-    04299
+    04177
     <span itemprop="chity">Leipzig</span>   
   </span>
 
@@ -25,9 +25,21 @@ per Email oder Telefon erreichen.
   <a href="http://www.heilpraktiker-frank-schneider.de/" itemprop="url"></a>
 </address>
 
+## Praxisraum
+
+<address itemscope itemtype="http://data-vocabulary.org/Organization">
+  <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+    <span itemprop="street-address">
+      Alte Straße 31,
+    </span>
+    04299
+    <span itemprop="chity">Leipzig</span> 
+  </span>
+</address>
+
 <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
-<div id="map">
-</div>
+
+<div id="map"> </div>
 
 
 <script>
