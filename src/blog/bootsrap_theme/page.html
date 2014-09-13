@@ -1,13 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}{{ conf.sitename }} – Kontakt{% endblock %}
+{% block title %}{{ conf.sitename }} – {{ entry.title }}{% endblock %}
 
-{% block head %}{{ super() }}
-  <script src="/js/jquery-1.10.2.min.js"></script>
-{% endblock %}
 
 {% block content %}
-
 <article>
     <header>
         <h1><a href="{{ env.path + entry.permalink }}" rel="bookmark canonical">{{ entry.title }}</a></h1>
