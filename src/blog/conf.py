@@ -50,7 +50,7 @@ VIEWS = {
     # '/:year/:slug/:lang/': {'view': 'translation'},
 }
 
-THEME = 'simple_light'
+THEME = 'bootsrap_theme'
 ENTRY_PERMALINK = '/blog/:year/:slug/index.html'
 PAGE_PERMALINK = '/:slug/index.html'
 TAG_CLOUD_STEPS = 4
