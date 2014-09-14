@@ -6,3 +6,4 @@ src/blog/output/
 .sass-cache
         
 trac/
+.vagrant
