@@ -4,6 +4,7 @@ src/wiki/
 src/blog/.cache/
 src/blog/output/
 .sass-cache
+VBox_data
         
 trac/
 .vagrant
