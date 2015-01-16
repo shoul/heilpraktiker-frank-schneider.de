@@ -6,8 +6,16 @@ type: page
 tags: [Therapie,]
 ---
 
-In meiner Praxis wende ich eine einige Therapiemethoden an. Die häufigsten
-stelle ich hier vor.
+
+In der Therapie setze ich schwerpunktmäßig chinesische Medizin ein. Bei der
+chinesischen Medizin schätze ich die lange Tradition und die guten
+Therapiekonzepte.
+
+Diese Tradition ermöglicht ausgereifte Therapien für viele Störungsbilder.
+Chinesische Medizin wird seit mehr als zweitausen Jahren angewandt.  Häufig
+brinen heutige Lehrschriften altes Wissen, die Erfahrungen über die Zeit und die
+modernen medizinischen Erkenntnisse zusammen zusammen.
+
 
 # Akupunktur
 
