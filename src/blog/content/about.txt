@@ -8,90 +8,63 @@ tags: [Info,]
 
 <p class="centert" style="margin-bottom: 70px;">
 <img class="shadow" alt="Frank Schneider" src="/img/fs.png"><br>
-</p>
+Frank Schneider </p>
 
-<!--
-> <span class="italic">Wenn ich etwas tue das mein Leben nicht bereichert, ist
-> eine Veränderung meines Verhaltens ohne das Gefühl von Scham, Schuld und
-> Verachtung meiner Person, in zwei Richtungen möglich:
->
-> Erstens in die Richtung die ich gehen möchte,  
-> Zweitens durch eine Veränderung, motiviert durch Respekt und Empatie für mich selbst.</span>  
->
-> <span class="tiny link_like">Marshall B. Rosenberg - Gewaltfreie Kommunikation</span>
--->
+# WELCHE INFORMATIONEN SUCHT EIN PATIENT HIER?
 
-In meinem ersten Beruf als Orthopädiemechaniker lernte ich viel über die
-Anatomie des Menschen. Als ich in dieser Tätigkeit keine ausreichenden
-Möglichkeiten für mein Bedürfniss nach Weiterentwicklung gesehen habe wurde ich
-Schauspieler. Hier konnte ich sehr interessante Zusammenhänge über menschliche
-Bedürfnisse und die dazugehörige Kommunikation erforschen.
-Fastsinnierend finde ich dabei vor allem die häufige Diskrepanz zwischen
-Bedürfnis und Kommunikation.
+* Wer ist Ihr therapeut? - Familie, Persönlicher Werdegang, Interessen
+* Welche Ausbildung?
+* Aussehen
 
-Meine Kenntisse habe ich Sieben Jahre als Schauspieler, in mehr als fünfhundert
-Bühnenvorstellungen, anwenden können. Nach der Geburt meiner Tochter wurde es
-mir wichtig Erziehungsaufgaben wahrzunehmen und mich stärker mit sozialen und
-gesundheitlichen Aspekten zu beschäftigen.
+Ich lebe seit August 2013 mit meiner Tochter in Leipzg.
+
+Den Beruf des Heilpraktikers habe ich gewählt, weil ich die Arbeit mit Menschen
+spannend finde. Meine Arbeit erfüllt mich mit Freude und Dankbarkeit.
 
 
-## Heilpraktiker-Ausbildung
+# Anwendungsausbildungen
 
-Die Ausbildung als Heilpraktiker machte ich bei der [Berliner Schule für
-Heilkunde](http://www.heilpraktikerintensivausbildungen.de/).  Vielen Dank an
-Jürgen und Abadh für die Freude mit der Ihr Eure Arbeit tut. Am 26. Mai 2008
-habe ich die Heilpraktikerprüfung bestanden.
+Von Anfang an legte ich meinen Therapieschwerpunkt auf **chinesische Medizin** und
+wählte deshalb, vor allem in diesem Bereich, eine umfangreiche Ausbildung.
 
-
-## Chinesische Medizin
-
-### Meine Erfahrungen mit Akupunktur
-
-Damals hatte ich eine Allergie die sich trotz der Einnahme von Antihistaminika
-und Kortison-Preparaten nicht zu behandeln war. Zu dieser Zeit hatte ich
-bereits seit mereren Wochen sehr starke Beschwerden und war bei verschiedenen
-Ärzten ohne dass sich eine Besserung einstellte.
-
-Aus ratlosigkeit ging ich dann das erste Mal zu einem Heilpraktiker. Bis dahin
-hatte ich, wie ich zugeben muss, Vorurteile. Der Behandlungserfolg war enorm.
-
-Ich habe mich daraufhin mit Akupunktur und chinesischer Medizin beschäftigt
-und erstaunt festgestellt, dass China gerade medizinisch gesehen schon sehr
-Früh ein hochentwickeltes Land war.  Damals hätte ich nie gedacht dass die **chinesische Medizin**
-Medizin schon seit mehr als zweitausend Jahren auf der Basis von
-Theoriegrundlagen angewendet wird oder dass es um 11.000 n. Chr. in China
-tatsächlich schon Apotheken mit Nachtdienst gab.
-
-### Ausbildung in Chinesischer Medizin
-
-In <span class="strong">chinesischer Medizin</span> ließ ich mich bei der <a target="_blank"
+In <span class="strong">chinesischer Medizin</span> ich mich bei der <a target="_blank"
 href="http://abz-ost.de/">Shou Zhong - Schule für Traditionelle Chinesische
-Medizin</a> ausbilden.  Die <span class="strong">Akupunkturausbildung</span>
-bestand aus 1270 UE, davon ca 450 UE Lehrpraxis.  Meine <span
-class="strong">Tuina</span>-Ausbildung umfasste 140 UE und enthielt zur Hälfte
-Lehrpraxis.  Tunina ist die manuelle Therapie der chinesischen Medizin. Sie ist
-ebenfalls mehrer tausen Jahre alt.  Hier werden die Meridiane und
-Akupunkturpunkte durch Druck-, Schiebe-, Streich-, Klopf- und Greiftechniken
-stimmuliert.
+Medizin</a> ausbilden.  Die **Akupunkturausbildung**
+bestand aus 1270 UE, davon ca 450 UE Lehrpraxis.  
 
-> <span class="italic">"Man sollte nicht daran denken, fertig zu werden, wie
-> man ja nicht reift, um anzukommen, sondern um zu reifen."</span> <span
-> class="tiny link_like">Johan Wolfgang von Goethe</span>
+Meine **Tuina-Ausbildung**, bei der gleichen Institiution, umfasste 140 UE und
+enthielt zur Hälfte Lehrpraxis.  Tunina ist eine manuelle Therapie der
+chinesischen Medizin. Sie ist ebenfalls mehrer tausen Jahre alt.  Hier werden
+die Meridiane und Akupunkturpunkte durch Druck-, Schiebe-, Streich-, Klopf- und
+Greiftechniken stimmuliert.
 
+Unter anderem habe ich weitere Aus- und Weiterbildungen in:
 
-### Weitere Ausbildungen
-
-* Ohrakupunktur - Michael Noack, Berlin
-* Kräutertherapie für Kinder - Julian Scott, GB
-* Kindertuina - Annete Jonas, Hamburg
+* **Ohrakupunktur** - Michael Noack, Berlin
+* **Kräutertherapie** für Kinder - Julian Scott, GB
+* **Kindertuina** - Annete Jonas, Hamburg
 
 
-## Meine Praxis
+# Heilpraktiker
+
+Meine Ausbildung zum Heilpraktiker machte ich bei der <a
+href="http://www.heilpraktikerintensivausbildungen.de" target="_blank">Berliner
+Schule für Heilkunde</a>.
+
+Die Prüfung zum Heilpraktiker legte ich am **26. Mai 2008**, in der Hansestadt
+Stralsund ab. Im Ramen des Heilpraktikergesetzes daf ich seit dem selbstständig
+Krankeiten diagnostizieren und Behandeln.
 
 
-Am 8. August 2008 eröffnete ich, damals noch in Berin, meine eigene
-**Heilpraktikerpraxis**.
+# Ergänzende Qualifikationen
 
-Seit dem ersten September 2013 praktiziere ich hier in Leipzig. Derzeit
-praktiziere ich in dem <a href="/contact/#Praxisraum" >Praxisraum</a> von Oliver.
+In meinem ersten Beruf als **Orthopädiemechaniker** lernte ich viel über die
+menschliche Anatomie. Dieses Beruf übte ich fast zehn Jahre aus.
+
+Als ich in dieser Tätigkeit keine für mich ausreichenden
+Entwicklungsmöglichkeiten gesehen habe erlernte ich die Kunst des
+**Schauspieler**s an der Schule für Schuauspiel Hamburg. In sieben Jahren
+Tätigkeit und mehr als fünfhundert Auftritten haben mich besonders
+Zusammenhänge von menschlichen Bedürfnissen und die Dynamik der Kommunikation
+fastsinniert.
 
