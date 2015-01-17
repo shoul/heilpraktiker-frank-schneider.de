@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link media="all" href="{{ env.path + '/css/bootstrap.min.css' }}" rel="stylesheet" />
+    <link media="all" href="{{ env.path + '/css/style_extra.css' }}" rel="stylesheet" />
     <script src="/js/jquery.min.js"></script>
 
     <link href="{{ env.path + '/blog/' }}" rel="home start" />
@@ -34,15 +35,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">HPFS</a>
+            <a class="navbar-brand" href="/">
+              Heilpraktiker - <span> Frank Schneider</span>
+            </a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-            <!--
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            -->
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Themen <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
@@ -146,11 +144,9 @@
         {% endblock sidebar %}
 
       </div>
-      <div class="row">
-        <div class="col-md-12">
-      Umgesetzt mit<a href="http://posativ.org/acrylamid">Acrylamid</a> | Fotos von <a href="http://christoph-polcin.com/">Christoph Polcin</a>
-        </div>
-      </div>
+    </div>
+    <div class="footer text-center">
+      Umgesetzt mit <a href="http://posativ.org/acrylamid">Acrylamid</a> | Fotos von <a href="http://christoph-polcin.com/">Christoph Polcin</a>
     </div>
       {% block script_footer %}
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins)
