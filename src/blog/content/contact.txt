@@ -5,23 +5,24 @@ type: page
 tags: [Info,]
 ---
 
+
 > Da meine Praxis eine reine <strong class="bold">Bestellpraxis</strong> ist,
-> bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich 
+> bitte ich Sie vorab immer einen Termin zu vereinbaren. Sie können mich
 > per Email oder Telefon erreichen.
 
 <address itemscope itemtype="http://data-vocabulary.org/Organization">
-  <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong>  
+  <strong><span itemprop="name">Heilpraktiker Frank Schneider</span></strong>
   <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
     <span itemprop="street-address">
       Gemeindeamtsstraße 17
     </span>
     04177
-    <span itemprop="chity">Leipzig</span>   
+    <span itemprop="chity">Leipzig</span>
   </span>
 
-  Tel: <span itemprop="tel">0341 / 2290 7711</span>  
-  Mobil: <span itemprop="tel">0178 / 333 59 99</span>  
-  Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">info@heilpraktiker-frank-schneider.de</a>  
+  Tel: <span itemprop="tel">0341 / 2290 7711</span>
+  Mobil: <span itemprop="tel">0178 / 333 59 99</span>
+  Email: <a href="mailto:info@heilpraktiker-frank-schneider.de">info@heilpraktiker-frank-schneider.de</a>
   <a href="http://www.heilpraktiker-frank-schneider.de/" itemprop="url"></a>
 </address>
 
@@ -33,24 +34,28 @@ tags: [Info,]
       Alte Straße 31,
     </span>
     04299
-    <span itemprop="chity">Leipzig</span> 
+    <span itemprop="chity">Leipzig</span>
   </span>
 </address>
 
-<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 
-<div id="map"> </div>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+<div class="panel panel-default media">
+  <div id="map"> </div>
+</div>
 
 
 <script>
 var map = L.map('map').setView([51.32896, 12.34009] , 16);
 
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
   }).addTo(map);
 
 
 L.marker([51.32890, 12.34009]).addTo(map)
-  .bindPopup("<b>Herzlich Willkommen</b><br />in meiner Praxis.");
+  .bindPopup("Alte Straße 31");
 </script>
+
