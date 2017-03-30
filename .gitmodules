@@ -1,0 +1,3 @@
+[submodule "src/img/logo"]
+	path = src/img/logo
+	url = /home/shoul/projects/hpfs/hpfs_logo
