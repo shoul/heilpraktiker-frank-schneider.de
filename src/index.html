@@ -17,8 +17,8 @@
           background-position: center;
           background-size: cover;
       }
-      .bgimg {background-image: url("/w3images/wedding_couple.jpg")}
-      .bgimg2 {background-image: url("/w3images/flowers.jpg")}
+      .bgimg {background-image: url("img/IMG_1801.JPG")}
+      .bgimg2 {background-image: url("img/IMG_1786_small.png")}
     </style>
     <script>
     /*
@@ -59,12 +59,12 @@
   </head>
   <body>
     <!-- Header / Home-->
-    <header class="w3-display-container w3-wide bgimg w3-grayscale-min w3-amber" id="home">
+    <header class="w3-display-container bgimg w3-wide w3-teal" id="home">
       <div class="w3-display-middle w3-text-white w3-center">
         <h1 class="w3-jumbo">Chinesische Medizin</h1>
         <h2>Frank Schneider</h2>
         <h2><b>Heilpraktiker</b></h2>
-        <img src="img/logo/hpfs_logo.svg.png" alt="Logo Heilpraktiker Frank Schneider" style="width:70%">
+        <img src="img/logo/logo.png" alt="Logo Heilpraktiker Frank Schneider" style="width:70%">
       </div>
     </header>
 
@@ -73,16 +73,16 @@
       <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
         <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
         <a href="#therapy" style="width:25%" class="w3-bar-item w3-button">Therapie</a>
-        <a href="#raum" style="width:25%" class="w3-bar-item w3-button">Raum</a>
+        <a href="#about" style="width:25%" class="w3-bar-item w3-button">Raum</a>
         <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Kontakt</a>
       </div>
     </div>
 
     <!-- Therapy -->
-    <div class="w3-container w3-padding-64 w3-teal w3-grayscale-min" id="therapy">
+    <div class="w3-container w3-black" id="therapy">
       <div class="w3-content">
         <h1 class="w3-center w3-text-grey"><b>Therapie</b></h1>
-        <img class="w3-round w3-grayscale-min" src="W3.CSS%20Template-Dateien/wedding_couple2.jpg" style="width:100%;margin:32px 0">
+        <img class="w3-round" src="img/IMG_1747.JPG" style="width:100%;margin:32px 0">
         <p><i>
     lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -101,16 +101,17 @@
     <!-- Background photo -->
     <div class="w3-display-container bgimg2">
       <div class="w3-display-middle w3-text-white w3-center">
-        <h1 class="w3-jumbo">You Are Invited</h1><br>
-        <h2>Of course..</h2>
+        <h1 class="w3-jumbo">Gezielte Wärme</h1><br>
+        <h2>Beifus kommt oft zum Einsatz.</h2>
+        <p>Diese Art der Behandlung ist nicht nur sehr effektiev, sie ist außerdem sehr entspannend.</p>
       </div>
     </div>
 
-    <!-- Wedding information -->
-    <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="raum">
+    <!-- About information -->
+    <div class="w3-container w3-padding-64 w3-amber w3-center" id="about">
       <div class="w3-content">
         <h1 class="w3-text-grey"><b>Raum</b></h1>
-        <img class="w3-round-large w3-grayscale-min" src="W3.CSS%20Template-Dateien/wedding_location.jpg" style="width:100%;margin:64px 0">
+        <img class="w3-round-large w3-grayscale-min" src="img/IMG_1839.JPG" style="width:100%;margin:64px 0">
         <div class="w3-row">
           <div class="w3-half">
             <h2>When</h2>
@@ -127,11 +128,11 @@
     </div>
 
     <!-- RSVP section -->
-    <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
-      <h1>HOPE YOU CAN MAKE IT!</h1>
-      <p class="w3-large">Kindly Respond By January, 2017</p>
+    <div class="w3-container w3-padding-64 w3-orange w3-center w3-wide" id="rsvp">
+      <h1 class="w3-wide">Wünschen Sie einen Termin?</h1>
+      <p class="w3-large">Ich freue mich auf Sie.</p>
       <p class="w3-xlarge">
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-lime" style="padding:8px 60px">KONTAKT</button>
       </p>
     </div>
 
@@ -139,27 +140,34 @@
     <div id="id01" class="w3-modal" style="display: none;">
       <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
         <div class="w3-container w3-white w3-center">
-          <h1 class="w3-wide">CAN YOU COME?</h1>
-          <p>We really hope you can make it.</p>
+          <h1 class="w3-wide">Kontakt</h1>
+          <p>Hinterlassen Sie mir bitte eine <b>Telefonnummer</b>, mit einer <b>Zeit</b> in der Sie <b>gut erreichbar</b> sind, dann können wir den Termin am Telefon besprechen.</p>
           <form lpformnum="6">
-            <input class="w3-input w3-border" placeholder="Name(s)" name="name" type="text">
+            <input class="w3-input w3-border" placeholder="Name" name="name" type="text">
+            <input class="w3-input w3-border" placeholder="Telefonnummer" name="phone" type="text">
+            <input class="w3-input w3-border" placeholder="Email, wenn Ihnen das lieber ist" name="email" type="email">
+            <textarea class="w3-input w3-border" placeholder="Nachricht" name="message" rows="4" cols="50"></textarea>
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Senden</button>
+
           </form>
-          <p><i>Sincerely, John &amp; Jane</i></p>
+          <p><i>Herzlichst, Ihr Frank Schneider</i></p>
+          <!--
           <div class="w3-row">
             <div class="w3-half">
-              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Senden</button>
             </div>
             <div class="w3-half">
               <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
             </div>
           </div>
+          -->
         </div>
       </div>
     </div>
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169 2017 Frank Schneider</p>
     </footer>
     <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
 
