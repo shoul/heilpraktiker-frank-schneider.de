@@ -134,6 +134,7 @@
       <p class="w3-xlarge">
         <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-lime" style="padding:8px 60px">KONTAKT</button>
       </p>
+
     </div>
 
     <!-- RSVP modal -->
@@ -147,10 +148,13 @@
             <input class="w3-input w3-border" placeholder="Telefonnummer" name="phone" type="text">
             <input class="w3-input w3-border" placeholder="Email, wenn Ihnen das lieber ist" name="email" type="email">
             <textarea class="w3-input w3-border" placeholder="Nachricht" name="message" rows="4" cols="50"></textarea>
+            <!--
             <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Senden</button>
+            -->
+            <button onclick="sendMail" type="button" class="w3-button w3-block w3-green">Senden</button>
 
           </form>
-          <p><i>Herzlichst, Ihr Frank Schneider</i></p>
+          <p><i>Ihr Frank Schneider</i></p>
           <!--
           <div class="w3-row">
             <div class="w3-half">
@@ -170,7 +174,6 @@
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169 2017 Frank Schneider</p>
     </footer>
     <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
-
 
   </body>
 </html>
