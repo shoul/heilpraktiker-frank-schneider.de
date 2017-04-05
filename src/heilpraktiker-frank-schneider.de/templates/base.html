@@ -20,46 +20,10 @@
       .bgimg {background-image: url("{{ url_for('static', filename='img/IMG_1801.JPG') }}")}
       .bgimg2 {background-image: url("{{ url_for('static', filename='img/IMG_1786_small.png') }}")}
     </style>
-    <script>
-    /*
-    try {
-      for (var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){
-          var lastpass_f = document.forms[lastpass_iter];
-          if(typeof(lastpass_f.lpsubmitorig)=="undefined"){
-            if (typeof(lastpass_f.submit) == "function") {
-              lastpass_f.lpsubmitorig = lastpass_f.submit;
-              lastpass_f.submit = function(){
-                var form = this;
-                try {
-                  if (document.documentElement && 'createEvent' in document){
-                    var forms = document.getElementsByTagName('form');
-                  for (var i=0 ; i<forms.length ; ++i)
-                    if (forms[i]==form){
-                      var element = document.createElement('lpformsubmitdataelement');
-                      element.setAttribute('formnum',i);
-                      element.setAttribute('from','submithook');
-                      document.documentElement.appendChild(element);
-                      var evt = document.createEvent('Events');
-                      evt.initEvent('lpformsubmit',true,false);
-                      element.dispatchEvent(evt);
-                      break;
-                    }
-                  }
-                } catch (e) {}
-                try {
-                  form.lpsubmitorig();
-                } catch (e) {}
-              }
-            }
-          }
-        }
-      } catch (e) {}
-      */
-    </script>
   </head>
   <body>
     <!-- Header / Home-->
-    <header class="w3-display-container bgimg w3-wide w3-teal" id="home">
+    <header class="w3-display-container bgimg w3-wide" id="home">
       <div class="w3-display-middle w3-text-white w3-center">
         <h1 class="w3-jumbo">Chinesische Medizin</h1>
         <h2>Frank Schneider</h2>
@@ -79,53 +43,67 @@
     </div>
 
     <!-- Therapy -->
-    <div class="w3-container w3-black" id="therapy">
+    <div class="w3-container w3-teal" id="therapy">
       <div class="w3-content">
         <h1 class="w3-center w3-text-grey"><b>Therapie</b></h1>
         <img class="w3-round" src="{{ url_for('static', filename='img/IMG_1747.JPG') }}" style="width:100%;margin:32px 0">
-        <p><i>
-    lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-    minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.</i>
-        </p><br>
-        <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Räumlichkeiten</a></p>
-      </div>
-    </div>
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <article>
+
+              <h1>Chinesische Medizin</h1>
+
+              <p>Die chinesische Medizin ist eine seit mehr als zweitausend Jahren stetig weiterentwickelte Anwendungsmedizin. Apotheken mit Nachtdienst gab beispielsweise bereits um die Jahrtausendwende, wenn auch nicht für die breite Befvölkerung.</p>
+
+            </article>
+          </div>
+          <div class="w3-half">
+            <h1>Anwendung</h1>
+
+            <p>Die Anwendungsgebiete für Chinesische Medizin sind breit gefächert. Beispiele für gut therapierbare Beschweden sind Schmerztherapien wie Rückenschmerzen oder Kopfschmerzen aber auch Infektanfälligkeit, Atemwegserkrankungen, Postoperative Beschwerden, Rauchentwöhnung und vieles mehr.</p>
+          </div>
+        </div>
+        <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3 -padding-large w3-large">Räumlichkeiten</a></p>       </div>     </div>
 
     <!-- Background photo -->
     <div class="w3-display-container bgimg2">
       <div class="w3-display-middle w3-text-white w3-center">
         <h1 class="w3-jumbo">Gezielte Wärme</h1><br>
         <h2>Beifus kommt oft zum Einsatz.</h2>
-        <p>Diese Art der Behandlung ist nicht nur sehr effektiev, sie ist außerdem sehr entspannend.</p>
+        <p>Diese Art der Behandlung ist effektiev und entspannend.</p>
       </div>
     </div>
 
     <!-- About information -->
     <div class="w3-container w3-padding-64 w3-amber w3-center" id="about">
       <div class="w3-content">
-        <h1 class="w3-text-grey"><b>Raum</b></h1>
+        <h1 class="w3-text-grey"><b>About</b></h1>
         <img class="w3-round-large w3-grayscale-min" src="{{ url_for('static', filename='img/IMG_1839.JPG') }}" style="width:100%;margin:64px 0">
-        <div class="w3-row">
+        <article>
+          <h1>Ausbildungen</h1>
+          <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung ufasste inclusve der klinischen Supervisionsstunden 1270 Stunden.
+
+          eine Einjährige Ausblidung in Tuina.</p>
+        </article>
+        <div class="w3-row w3-left-align">
           <div class="w3-half">
-            <h2>When</h2>
-            <p>Wedding Ceremony - 2:00pm</p>
-            <p>Reception &amp; Dinner - 5:00pm</p>
+            <h2>Kosten</h2>
+
+            <p>Die Kosten für eine Erstanamnese liegen je nach Zeitaufwand bei ca 60 - 80€.
+            Weitere Sitzungen dauern in der Regel etwa eine Stunde und werden entsprechend mit 40€ berechnet. Kinder bis zum Alter von 14 Jahren bekommen einen Preisnachlass von 25%.</p>
           </div>
           <div class="w3-half">
-            <h2>Where</h2>
-            <p>Some place, an address</p>
-            <p>Some where, some address</p>
+            <h2>Wo</h2>
+
+            <p>Praxisräume habe ich im <a href="http://fengshuihaus-leipzig.de/">Feng Shui Haus Leipig</a>,
+            Walter-Heinze-Str. 1, 04229 Leipzig</p>
           </div>
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+      var wheremap = L.map('wheremap').setView([55.300, -45.000], 13);
+    </script>
 
     <!-- RSVP section -->
     <div class="w3-container w3-padding-64 w3-orange w3-center w3-wide" id="rsvp">
@@ -142,29 +120,11 @@
       <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
         <div class="w3-container w3-white w3-center">
           <h1 class="w3-wide">Kontakt</h1>
-          <p>Hinterlassen Sie mir bitte eine <b>Telefonnummer</b>, mit einer <b>Zeit</b> in der Sie <b>gut erreichbar</b> sind, dann können wir den Termin am Telefon besprechen.</p>
-          <form lpformnum="6">
-            <input class="w3-input w3-border" placeholder="Name" name="name" type="text">
-            <input class="w3-input w3-border" placeholder="Telefonnummer" name="phone" type="text">
-            <input class="w3-input w3-border" placeholder="Email, wenn Ihnen das lieber ist" name="email" type="email">
-            <textarea class="w3-input w3-border" placeholder="Nachricht" name="message" rows="4" cols="50"></textarea>
-            <!--
-            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Senden</button>
-            -->
-            <button onclick="sendMail" type="button" class="w3-button w3-block w3-green">Senden</button>
-
-          </form>
-          <p><i>Ihr Frank Schneider</i></p>
-          <!--
+            <p>Email: <b>konakt@heilpraktiker-frank-schneider.de</b><br>
+            Mobil: <b>0178 / 333 59 99</b></p>
           <div class="w3-row">
-            <div class="w3-half">
-              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Senden</button>
-            </div>
-            <div class="w3-half">
-              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
-            </div>
+              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green w3-center">Zurück</button>
           </div>
-          -->
         </div>
       </div>
     </div>
