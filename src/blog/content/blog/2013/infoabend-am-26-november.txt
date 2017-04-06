@@ -3,7 +3,7 @@ title: Infoabend am 28. November
 permalink: /blog/2013/infoabend-am-26-november/
 date: 11.11.2013, 17:43
 tags: [Info,]
-draft: False
+draft: True
 ---
 
 Akupunktur ist ein geprüftes und allgemein akzeptiertes Verfahren und kommt
@@ -36,3 +36,4 @@ Gustav-Adolf-Str. 43<br>
 Eine Anfahrtsbeschreibung und eine Karte finden Sie auf meiner <a href="/contact/">Kontaktseite</a>.
 
 Ich freue mich auf Sie
+
