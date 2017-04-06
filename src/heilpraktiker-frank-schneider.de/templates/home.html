@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
+{% endblock head %}
+
+{% block content %}
+    <!-- Therapy -->
+    <div class="w3-container w3-teal" id="therapy">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Therapie</b></h1>
+        <img class="w3-round" src="{{ url_for('static', filename='img/room.png') }}" style="width:100%;margin:32px 0">
+        <div class="w3-row-padding">
+          <div class="w3-half">
+            <article>
+
+              <h1>Chinesische Medizin</h1>
+
+              <p>Die chinesische Medizin ist eine seit mehr als zweitausend Jahren stetig weiterentwickelte Anwendungsmedizin. Apotheken mit Nachtdienst gab beispielsweise bereits um die Jahrtausendwende, wenn auch nicht für die breite Bevölkerung.</p>
+
+            </article>
+          </div>
+          <div class="w3-half">
+            <h1>Anwendung</h1>
+
+            <p>Die Anwendungsgebiete für Chinesische Medizin sind breit gefächert. Beispiele für gut therapierbare Beschweden sind Schmerztherapien wie Rückenschmerzen oder Kopfschmerzen aber auch Infektanfälligkeit, Atemwegserkrankungen, Postoperative Beschwerden, Rauchentwöhnung und vieles mehr.</p>
+          </div>
+        </div>
+        <p class="w3-center"><a href="#contact" class="w3-button w3-black w3-round w3 -padding-large w3-large">Kontakt</a></p>
+      </div>
+    </div>
+
+    <!-- Background photo -->
+    <div class="w3-display-container bgimg2">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">Gezielte Wärme</h1><br>
+        <h2>Beifus kommt oft zum Einsatz.</h2>
+        <p>Diese Art der Behandlung ist effektiev und entspannend.</p>
+      </div>
+    </div>
+
+    <!-- About information -->
+    <div class="w3-container w3-padding-64 w3-amber w3-center" id="about">
+      <div class="w3-content">
+        <h1 class="w3-text-grey"><b>About</b></h1>
+        <img class="w3-round-large w3-grayscale-min" src="{{ url_for('static', filename='img/therapeut_fs.png') }}" alt="Heilpraktiker Frank Schneider" style="width:100%;margin:64px 0">
+        <article class="w3-left-align">
+          <h1>Ausbildung</h1>
+          <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung ufasste inclusve der klinischen Supervisionsstunden 1270 Stunden.</p>
+
+          <p>Durch die Teilnahme an Kursen und Weiterbildungen erweitert Herr sein Behandlungsspektrum, vor allem im Bereich Traditionelle Chinesische Medizin.</p>
+
+        </article>
+        <div class="w3-row w3-left-align">
+          <div class="w3-half">
+            <h2>Kosten</h2>
+
+            <p>Die Kosten für eine Erstanamnese liegen je nach Zeitaufwand bei ca 60 - 80€. Dies dauert meist 90 bis 120 Minuten.<br>
+            Weitere Sitzungen dauern dann in der Regel etwa eine Stunde und werden entsprechend mit 40€ berechnet. Kinder bis zum Alter von 14 Jahren bekommen einen Preisnachlass von 25%.</p>
+          </div>
+          <div class="w3-half">
+            <h2>Wo</h2>
+
+            <p>Die Therapien finden statt im: <a href="http://fengshuihaus-leipzig.de/"><b>Feng Shui Haus Leipig</b></a>,
+            Walter-Heinze-Str. 1, 04229 Leipzig</p>
+
+            <div id="map" class="map" style="width: 100%; height: 180px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+       var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([12.33646, 51.33194]),
+          zoom: 18
+        })
+      });
+    </script>
+
+    <!-- RSVP section -->
+    <div class="w3-container w3-padding-64 w3-orange w3-center w3-wide" id="contact">
+      <h1 class="w3-wide">Wünschen Sie einen Termin?</h1>
+      <p class="w3-large">Ich freue mich auf Sie.</p>
+      <p class="w3-xlarge">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-lime" style="padding:8px 60px">KONTAKT</button>
+      </p>
+
+    </div>
+
+    <!-- RSVP modal -->
+    <div id="id01" class="w3-modal" style="display: none;">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+        <div class="w3-container w3-white w3-center">
+          <h1 class="w3-wide">Kontakt</h1>
+            <p>Email: <b>konakt@heilpraktiker-frank-schneider.de</b><br>
+            Mobil: <b>0178 / 333 59 99</b></p>
+          <div class="w3-row">
+              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green w3-center">Zurück</button>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock content %}

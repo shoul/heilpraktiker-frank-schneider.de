@@ -2,12 +2,14 @@
 <html lang="de-DE">
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Heilpraktiker Frank Schneider, Leipzig, Therapie">
+    <meta name="description" content="Heilpraktiker Frank Schneider, Leipzig, Therapie, Traditionelle Chinesische Medizin">
     <meta name="keywords" content="TCM,Chinesische-Medizin,Therapie,Leipzig,Plagwitz,Lindenau">
-    <title>TCM - Praxsis</title>
+    <title>Heilpraktiker Frank Schneider</title>
     <meta name="author" content="Frank Schneider">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/w3.css') }}">
+    {% block head %}
+    {% endblock head %}
     <style>
       body,h1,h2{font-family: "Raleway", sans-serif}
       body, html {height: 100%}
@@ -18,11 +20,9 @@
           background-size: cover;
       }
       .bgimg {background-image: url("{{ url_for('static', filename='img/IMG_1801.JPG') }}")}
-      .bgimg2 {background-image: url("{{ url_for('static', filename='img/IMG_1786_small.png') }}")}
+      .bgimg2 {background-image: url("{{ url_for('static', filename='img/moxa.png') }}")}
     </style>
-    <!-- Mapquest -->
-    <script src='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.js'></script>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v0.34.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://openlayers.org/en/v4.0.1/build/ol.js" type="text/javascript"></script>
   </head>
   <body>
     <!-- Header / Home-->
@@ -38,112 +38,18 @@
     <!-- Navbar (sticky bottom) -->
     <div class="w3-bottom w3-hide-small">
       <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-        <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-        <a href="#therapy" style="width:25%" class="w3-bar-item w3-button">Therapie</a>
-        <a href="#about" style="width:25%" class="w3-bar-item w3-button">Raum</a>
-        <a href="#contact" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Kontakt</a>
+        <a href="/#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+        <a href="/#therapy" style="width:25%" class="w3-bar-item w3-button">Therapie</a>
+        <a href="/#about" style="width:25%" class="w3-bar-item w3-button">Raum</a>
+        <a href="/#contact" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Kontakt</a>
       </div>
     </div>
-
-    <!-- Therapy -->
-    <div class="w3-container w3-teal" id="therapy">
-      <div class="w3-content">
-        <h1 class="w3-center w3-text-grey"><b>Therapie</b></h1>
-        <img class="w3-round" src="{{ url_for('static', filename='img/IMG_1747.JPG') }}" style="width:100%;margin:32px 0">
-        <div class="w3-row-padding">
-          <div class="w3-half">
-            <article>
-
-              <h1>Chinesische Medizin</h1>
-
-              <p>Die chinesische Medizin ist eine seit mehr als zweitausend Jahren stetig weiterentwickelte Anwendungsmedizin. Apotheken mit Nachtdienst gab beispielsweise bereits um die Jahrtausendwende, wenn auch nicht für die breite Befvölkerung.</p>
-
-            </article>
-          </div>
-          <div class="w3-half">
-            <h1>Anwendung</h1>
-
-            <p>Die Anwendungsgebiete für Chinesische Medizin sind breit gefächert. Beispiele für gut therapierbare Beschweden sind Schmerztherapien wie Rückenschmerzen oder Kopfschmerzen aber auch Infektanfälligkeit, Atemwegserkrankungen, Postoperative Beschwerden, Rauchentwöhnung und vieles mehr.</p>
-          </div>
-        </div>
-        <p class="w3-center"><a href="#contact" class="w3-button w3-black w3-round w3 -padding-large w3-large">Kontakt</a></p>       </div>     </div>
-
-    <!-- Background photo -->
-    <div class="w3-display-container bgimg2">
-      <div class="w3-display-middle w3-text-white w3-center">
-        <h1 class="w3-jumbo">Gezielte Wärme</h1><br>
-        <h2>Beifus kommt oft zum Einsatz.</h2>
-        <p>Diese Art der Behandlung ist effektiev und entspannend.</p>
-      </div>
-    </div>
-
-    <!-- About information -->
-    <div class="w3-container w3-padding-64 w3-amber w3-center" id="about">
-      <div class="w3-content">
-        <h1 class="w3-text-grey"><b>About</b></h1>
-        <img class="w3-round-large w3-grayscale-min" src="{{ url_for('static', filename='img/IMG_1839.JPG') }}" style="width:100%;margin:64px 0">
-        <article class="w3-left-align">
-          <h1>Ausbildung</h1>
-          <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung ufasste inclusve der klinischen Supervisionsstunden 1270 Stunden.</p>
-
-          <p>Viele Kurse und Weiterbildungen, vor allem im Bereich Traditionelle Chinesische Medizin, erweitern das Behandlungsspektrum von Herrn Schneider.</p>
-
-        </article>
-        <div class="w3-row w3-left-align">
-          <div class="w3-half">
-            <h2>Kosten</h2>
-
-            <p>Die Kosten für eine Erstanamnese liegen je nach Zeitaufwand bei ca 60 - 80€.
-            Weitere Sitzungen dauern in der Regel etwa eine Stunde und werden entsprechend mit 40€ berechnet. Kinder bis zum Alter von 14 Jahren bekommen einen Preisnachlass von 25%.</p>
-          </div>
-          <div class="w3-half">
-            <h2>Wo</h2>
-
-            <p>Die Therapien finden statt im: <a href="http://fengshuihaus-leipzig.de/"><b>Feng Shui Haus Leipig</b></a>,
-            Walter-Heinze-Str. 1, 04229 Leipzig</p>
-            <!-- Mapquest -->
-            <div id="map" style="width: 100%; height: 180px;"></div>
-            <script>
-              mapboxgl.accessToken = 'pk.eyJ1IjoibXJzaG91bCIsImEiOiJjajE1ZHp0ZjYwMDIzMndubnF0bzM4bGF5In0.9cwTGNTvGpKT5TP5ig692g';
-              var map = new mapboxgl.Map({
-              container: 'map',
-              center: [12.33646, 51.33194],
-              zoom: 16,
-              style: 'mapbox://styles/mapbox/streets-v9'
-              });
-            </script>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- RSVP section -->
-    <div class="w3-container w3-padding-64 w3-orange w3-center w3-wide" id="contact">
-      <h1 class="w3-wide">Wünschen Sie einen Termin?</h1>
-      <p class="w3-large">Ich freue mich auf Sie.</p>
-      <p class="w3-xlarge">
-        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-lime" style="padding:8px 60px">KONTAKT</button>
-      </p>
-
-    </div>
-
-    <!-- RSVP modal -->
-    <div id="id01" class="w3-modal" style="display: none;">
-      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-        <div class="w3-container w3-white w3-center">
-          <h1 class="w3-wide">Kontakt</h1>
-            <p>Email: <b>konakt@heilpraktiker-frank-schneider.de</b><br>
-            Mobil: <b>0178 / 333 59 99</b></p>
-          <div class="w3-row">
-              <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green w3-center">Zurück</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% block content %}
+    {% endblock content %}
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169 2017 Frank Schneider</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169 2017 Frank Schneider | <a href="/impressum">Impressum</a></p>
     </footer>
     <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
 
