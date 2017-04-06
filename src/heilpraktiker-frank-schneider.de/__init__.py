@@ -7,7 +7,7 @@ app.config.from_envvar('HPFS_SETTINGS')
 def index():
 	return render_template('home.html')
 
-@app.route('/impressum')
+@app.route('/impressum/')
 def impressum():
 	return render_template('impressum.html')
 
