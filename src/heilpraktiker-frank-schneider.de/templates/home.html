@@ -18,6 +18,17 @@
 
               <p>Die chinesische Medizin ist eine seit mehr als zweitausend Jahren stetig weiterentwickelte Anwendungsmedizin. Apotheken mit Nachtdienst gab beispielsweise bereits um die Jahrtausendwende, wenn auch nicht für die breite Bevölkerung.</p>
 
+              <h2>Therapiesäulen</h2>
+
+              <p>Fünf Therapiesäulen umfasst die Traditionelle Chinesische Medizin.</p>
+              <ul>
+                <li>Akupunktur</li>
+                <li>Kräutermedizin</li>
+                <li>Tuina - Eine manuelle Therapietechnik</li>
+                <li>Chinesische Diäthetik</li>
+                <li>Heil-Qigong</li>
+              </ul>
+
             </article>
           </div>
           <div class="w3-half">
@@ -40,24 +51,40 @@
     </div>
 
     <!-- About information -->
-    <div class="w3-container w3-padding-64 w3-amber w3-center" id="about">
+    <div class="w3-padding-64 w3-amber w3-center" id="about">
       <div class="w3-content">
-        <h1 class="w3-text-grey"><b>About</b></h1>
-        <img class="w3-round-large w3-grayscale-min" src="{{ url_for('static', filename='img/therapeut_fs.png') }}" alt="Heilpraktiker Frank Schneider" style="width:100%;margin:64px 0">
-        <article class="w3-left-align">
-          <h1>Ausbildung</h1>
-          <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung ufasste inclusve der klinischen Supervisionsstunden 1270 Stunden.</p>
+        <h1 class="w3-text-grey"><b>Therapeut</b></h1>
+        <div class="w3-row-padding">
+          <div class="w3-col w3-twothird">
+            <img class="w3-round w3-grayscale-min" src="{{ url_for('static', filename='img/therapeut_fs.png') }}" alt="Heilpraktiker Frank Schneider" style="width:100%;margin:64px 0">
+          </div>
+          <div class="w3-col w3-third" style="padding-top: 54px">
+            <article class="w3-left-align">
+              <h1>Ausbildung</h1>
+              <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung ufasste inclusve der klinischen Supervisionsstunden 1270 Stunden.</p>
 
-          <p>Durch die Teilnahme an Kursen und Weiterbildungen erweitert Herr sein Behandlungsspektrum, vor allem im Bereich Traditionelle Chinesische Medizin.</p>
+              <p>Durch die stete Teilnahme an Kursen und Weiterbildungen erweitert er sein Behandlungsspektrum.</p>
 
-        </article>
+              <ul>
+                <li>Tuina - Quasi die manuelle Therapie der Chinesischen Medizin.</li>
+                <li>Ohrakupunktur</li>
+                <li>Kindertuina</li>
+                <li>Chinesische Diagnostik und Westliche Kräuter in der Kinderheilkunde.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
         <div class="w3-row w3-left-align">
           <div class="w3-half">
+          <article>
             <h2>Kosten</h2>
 
             <p>Die Kosten für eine Erstanamnese liegen je nach Zeitaufwand bei ca 60 - 80€. Dies dauert meist 90 bis 120 Minuten.<br>
             Weitere Sitzungen dauern dann in der Regel etwa eine Stunde und werden entsprechend mit 40€ berechnet. Kinder bis zum Alter von 14 Jahren bekommen einen Preisnachlass von 25%.</p>
           </div>
+          </article>
+          <article>
           <div class="w3-half">
             <h2>Wo</h2>
 
@@ -65,6 +92,7 @@
             Walter-Heinze-Str. 1, 04229 Leipzig</p>
 
             <div id="map" class="map" style="width: 100%; height: 180px;"></div>
+          </article>
           </div>
         </div>
       </div>
