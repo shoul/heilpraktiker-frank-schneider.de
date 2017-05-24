@@ -1,23 +1,42 @@
 body,p{font-family:  'Josefin Sans', sans-serif}
 h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif}
+h1{font-size:32px}
+h2{font-size:26px}
+h3{font-size:21px}
+h4{font-size:18px}
+h5{font-size:16px}
+h6{font-size:14px}
+p{font-size: 1em}
 body, html {height: 100%}
 p {line-height: 2}
 img {width: 100%;height: auto}
 .bgimg {background-image: url('/static/img/header_0600.JPG')}
 .bgimg2 {background-image: url('/static/img/moxa_0600.png')}
 .bgimg, .bgimg2 {
-  width: auto;
+  width: 100%;
   min-height: 100%;
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
+}
+.logo {
+  width: 70%;
 }
 @media only screen and (min-width: 600px) {
   .bgimg {background-image: url('/static/img/header_0768.JPG')}
   .bgimg2 {background-image: url('/static/img/moxa_0768.png')}
+  h1{font-size:33px}h2{font-size:28px}h3{font-size:22px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 }
 @media only screen and (min-width: 768px) {
   .bgimg {background-image: url('/static/img/header_1600.JPG')}
   .bgimg2 {background-image: url('/static/img/moxa_1600.png')}
+  h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 }
-
-
+.text-not-black {
+  color: rgb(20, 20, 30)!important;
+}
+footer > p {
+  margin: 0 0 0 0;
+  padding-top: 1em;
+}

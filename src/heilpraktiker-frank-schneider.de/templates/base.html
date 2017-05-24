@@ -11,34 +11,42 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/w3.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
     {% block head %}
     {% endblock head %}
   </head>
   <body>
+    <!-- Navbar -->
+    <div class="w3-bar w3-white w3-opacity-min w3-hover-opacity-off">
+      <a class="w3-bar-item w3-button w3-hide-small" href="/#home" >Home</a>
+      <a class="w3-bar-item w3-button w3-hide-small" href="/#therapy" >Therapie</a>
+      <a class="w3-bar-item w3-button w3-hide-small" href="/#about" >Heilpraktiker</a>
+      <a class="w3-bar-item w3-button w3-hide-small" href="/#contact" >Kontakt</a>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="toggleNavbar()">&#9776;</a>
+    </div>
+
+    <div id="navbar-small" class="w3-bar w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a class="w3-bar-item w3-button w3-mobile" href="/#home" >Home</a>
+      <a class="w3-bar-item w3-button w3-mobile" href="/#therapy" >Therapie</a>
+      <a class="w3-bar-item w3-button w3-mobile" href="/#about" >Heilpraktiker</a>
+      <a class="w3-bar-item w3-button w3-mobile" href="/#contact" >Kontakt</a>
+    </div>
+
+
     <!-- Header / Home-->
     <header class="w3-display-container bgimg w3-wide" id="home">
-      <div class="w3-display-middle w3-text-white w3-center">
-        <img src="{{ url_for('static', filename='img/logo/logo.png') }}" alt="Logo Heilpraktiker Frank Schneider" style="width:70%">
-        <h1 class="w3-xxxlarge">Chinesische Medizin</h1>
+      <div class="w3-display-middle text-not-black w3-center">
+        <img class="logo" src="{{ url_for('static', filename='img/logo/logo.png') }}" alt="Logo Heilpraktiker Frank Schneider">
+        <h1>Chinesische Medizin</h1>
         <h2>Frank Schneider</h2>
         <h2><b>Heilpraktiker</b></h2>
       </div>
     </header>
-
-    <!-- Navbar (sticky bottom) -->
-    <div class="w3-bottom w3-hide-small">
-      <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
-        <a href="/#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-        <a href="/#therapy" style="width:25%" class="w3-bar-item w3-button">Therapie</a>
-        <a href="/#about" style="width:25%" class="w3-bar-item w3-button">Heilpraktiker</a>
-        <a href="/#contact" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Kontakt</a>
-      </div>
-    </div>
     {% block content %}
     {% endblock content %}
 
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-16">
+    <footer class="w3-center w3-black">
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169; 2017 Frank Schneider | <a href="{{ url_for('impressum') }}">Impressum</a></p>
     </footer>
     <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>

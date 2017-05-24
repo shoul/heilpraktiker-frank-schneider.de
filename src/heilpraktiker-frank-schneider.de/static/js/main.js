@@ -1,3 +1,12 @@
+function toggleNavbar() {
+  var n = document.getElementById("navbar-small");
+  if (n.className.indexOf("w3-show") == -1) {
+    n.className += " w3-show";
+  } else {
+    n.className = n.className.replace(" w3-show", "");
+  }
+}
+/*
 $(document).ready(function () {
 	view = new ol.View({
 	  	center: [1373295.0134457604, 6680221.679608975],
@@ -33,3 +42,4 @@ $(document).ready(function () {
 	map.addLayer(point);
 
 });
+*/
