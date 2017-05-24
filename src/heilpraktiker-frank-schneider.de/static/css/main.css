@@ -1,0 +1,23 @@
+body,p{font-family:  'Josefin Sans', sans-serif}
+h1,h2,h3,h4,h5,h6{font-family: 'Open Sans', sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+img {width: 100%;height: auto}
+.bgimg {background-image: url('/static/img/header_0600.JPG')}
+.bgimg2 {background-image: url('/static/img/moxa_0600.png')}
+.bgimg, .bgimg2 {
+  width: auto;
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (min-width: 600px) {
+  .bgimg {background-image: url('/static/img/header_0768.JPG')}
+  .bgimg2 {background-image: url('/static/img/moxa_0768.png')}
+}
+@media only screen and (min-width: 768px) {
+  .bgimg {background-image: url('/static/img/header_1600.JPG')}
+  .bgimg2 {background-image: url('/static/img/moxa_1600.png')}
+}
+
+
