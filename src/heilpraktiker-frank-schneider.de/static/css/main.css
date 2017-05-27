@@ -40,3 +40,14 @@ footer > p {
   margin: 0 0 0 0;
   padding-top: 1em;
 }
+
+/* Map */
+.map:-moz-full-screen {
+  height: 100%;
+}
+.map:-webkit-full-screen {
+  height: 100%;
+}
+.map:fullscreen {
+  height: 100%;
+}

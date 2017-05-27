@@ -92,26 +92,12 @@
               <p>Die Therapien finden statt im: <a href="http://fengshuihaus-leipzig.de/"><b>Feng Shui Haus Leipzig</b></a>,
               Walter-Heinze-Str. 1, 04229 Leipzig</p>
 
-              <div id="map" class="map" style="width: 100%; height: 180px;"></div>
+              <div id="map" class="map" style="width: 100%; height: 230px;"></div>
             </article>
           </div>
         </div>
       </div>
     </div>
-    <script>
-       var map = new ol.Map({
-        target: 'map',
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          })
-        ],
-        view: new ol.View({
-          center: ol.proj.fromLonLat([12.33646, 51.33194]),
-          zoom: 18
-        })
-      });
-    </script>
 
     <!-- RSVP section -->
     <div class="w3-container w3-padding-64 w3-orange w3-center w3-wide" id="contact">
@@ -137,3 +123,7 @@
       </div>
     </div>
 {% endblock content %}
+
+{% block foot_script %}
+    <script type="text/javascript" src="{{ url_for('static', filename='js/map.js') }}"></script>
+{% endblock foot_script %}
