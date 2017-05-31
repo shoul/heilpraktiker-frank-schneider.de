@@ -12,13 +12,7 @@ li > a:hover {
 	border-bottom: medium rgb(238, 238, 238) solid;
 	color: rgb(238, 238, 238);
 }
-/*
-.wrapper {
-	background-image: url(/static/img/header_1200.JPG);
-	background-repeat: no-repeat;
-	background-size: cover;
-	width: 100% !important;
-	z-index: 0;
 
+header {
+	padding-top: 2em;
 }
-*/

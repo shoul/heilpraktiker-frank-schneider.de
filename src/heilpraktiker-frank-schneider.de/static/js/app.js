@@ -37,4 +37,7 @@ $(document).ready(function() {
     layers: mappings.layers,
     view: mappings.view
   });
+
+  $('header').css("min-height", $(window).height());
 })
+
