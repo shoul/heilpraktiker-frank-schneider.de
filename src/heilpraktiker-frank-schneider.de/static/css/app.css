@@ -1,5 +1,8 @@
 body {
-	background-color: #ffd214;
+	background-color: rgb(255, 210, 20);
+}
+img {
+	border-radius: 0.2em;
 }
 li > a {
 	color: rgb(238, 238, 238);
@@ -13,6 +16,13 @@ li > a:hover {
 	color: rgb(238, 238, 238);
 }
 
-header {
+header, #therapy, #about, #contact, #info {
 	padding-top: 2em;
+}
+#info {
+	background-image: url(/static/img/moxa_1200.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0.2em;
 }
