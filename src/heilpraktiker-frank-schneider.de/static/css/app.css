@@ -1,6 +1,24 @@
 body {
 	background-color: #ffd214;
 }
+li > a {
+	color: rgb(238, 238, 238);
+}
+li > a:hover {
+	color: rgb(168, 168, 168);
+}
 .menu {
 	background-color: #876b00;
+	border-bottom: medium rgb(238, 238, 238) solid;
+	color: rgb(238, 238, 238);
 }
+/*
+.wrapper {
+	background-image: url(/static/img/header_1200.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100% !important;
+	z-index: 0;
+
+}
+*/

@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
   </head>
   <body>
-    <header class="row" id="header">
-      <div class="small-8 medium-5 large-4 small-centered column">
-        {% include 'header.html' %}
-      </div>
-    </header>
-    <div class="row">
-      <div class="small-12 column">
+
         {% include 'navbar.html' %}
-      </div>
+
+      <header class="row" id="header">
+        <div class="small-8 medium-5 large-4 small-centered column">
+          {% include 'header.html' %}
+        </div>
+      </header>
+    <div class="wrapper">
     </div>
 
     {% block content %}
