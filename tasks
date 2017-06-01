@@ -1,6 +1,6 @@
 Add test_site_is_running | id:170416d1f837e89067a1498810bf0f8c04fdced4
-Fix favicon. | id:466c6a274c4ec499b32642b8fbf6e091b0b94b74
-Add kontakt throu kontakt form. | id:57fbd91a70899e24e5d80cd2bda24a32b6cf3e39
+Add kontakt throug form. | id:57fbd91a70899e24e5d80cd2bda24a32b6cf3e39
 Add new photo with happy therapeut. | id:a8c4aa11ee9a8460561e499175467b9c0a242e9d
 Add HTTP Error pages | id:baf8b2f54d9e4aa803174ae9e938e756de930d9c
 Add photo with couch | id:be31d53fa00c69efaec272dc41b56e5d5477623c
+Fix navbar on very small sreens. | id:d13e3dac933a92f8889b645de7b2aca0cd4f2e17
