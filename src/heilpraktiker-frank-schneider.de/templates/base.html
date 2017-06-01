@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.css') }}">
+    <title>Heilpraktiker Frank Schneider</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.min.css') }}">
     {% block head %}
     {% endblock head %}
     <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
@@ -14,11 +14,8 @@
 
         {% include 'navbar.html' %}
 
-      <header class="row" id="header">
-        <div class="small-8 medium-5 large-4 small-centered column">
           {% include 'header.html' %}
-        </div>
-      </header>
+
     <div class="wrapper">
     </div>
 
@@ -30,7 +27,7 @@
 
     <script src="{{ url_for('static', filename='js/vendor/jquery.js') }}"></script>
     <script src="{{ url_for('static', filename='js/vendor/what-input.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/vendor/foundation.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/foundation.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/app.js') }}"></script>
   </body>
 </html>

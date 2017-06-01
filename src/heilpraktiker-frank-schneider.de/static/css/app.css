@@ -4,20 +4,8 @@ body {
 img {
 	border-radius: 0.2em;
 }
-li > a {
-	color: rgb(238, 238, 238);
-}
-li > a:hover {
-	color: rgb(168, 168, 168);
-}
-.menu {
-	background-color: #876b00;
-	border-bottom: medium rgb(238, 238, 238) solid;
-	color: rgb(238, 238, 238);
-}
-
 header, #therapy, #about, #contact, #info {
-	padding-top: 2em;
+	padding-top: 4em;
 }
 #info {
 	background-image: url(/static/img/moxa_1200.png);
@@ -25,4 +13,11 @@ header, #therapy, #about, #contact, #info {
 	background-position: center;
 	background-attachment: fixed;
 	border-radius: 0.2em;
+}
+.menu {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: rgb(238, 238, 238);
+	z-index: +1;
 }
