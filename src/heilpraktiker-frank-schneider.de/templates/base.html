@@ -1,63 +1,33 @@
 <!doctype html>
-<html lang="de-DE">
+<html class="no-js" lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Heilpraktiker Frank Schneider, Leipzig, Therapie, Traditionelle Chinesische Medizin">
-    <meta name="keywords" content="TCM,Chinesische-Medizin,Therapie,Leipzig,Plagwitz,Lindenau">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='img/logo.ico') }}" />
-    <title>Heilpraktiker Frank Schneider</title>
-    <meta name="author" content="Frank Schneider">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/w3.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
-    <script type="text/javascript" src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <title>Heilpraktiker Frank Schneider</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.min.css') }}">
     {% block head %}
     {% endblock head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
   </head>
   <body>
-    <!-- Navbar -->
-    <div class="w3-top">
-      <div class="w3-bar w3-white w3-opacity-min w3-hover-opacity-off">
-        <a class="w3-bar-item w3-button w3-hide-small" href="/#home" >Home</a>
-        <a class="w3-bar-item w3-button w3-hide-small" href="/#therapy" >Therapie</a>
-        <a class="w3-bar-item w3-button w3-hide-small" href="/#about" >Heilpraktiker</a>
-        <a class="w3-bar-item w3-button w3-hide-small" href="/#contact" >Kontakt</a>
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="toggleNavbar()">&#9776;</a>
-      </div>
+
+        {% include 'navbar.html' %}
+
+          {% include 'header.html' %}
+
+    <div class="wrapper">
     </div>
 
-    <div class="w3-top">
-      <div id="navbar-small" class="w3-bar w3-white w3-hide w3-hide-large w3-hide-medium">
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-left w3-hide-large w3-hide-medium" onclick="toggleNavbar()">&#9776;</a>
-        <a class="w3-bar-item w3-button w3-mobile" href="/#home" >Home</a>
-        <a class="w3-bar-item w3-button w3-mobile" href="/#therapy" >Therapie</a>
-        <a class="w3-bar-item w3-button w3-mobile" href="/#about" >Heilpraktiker</a>
-        <a class="w3-bar-item w3-button w3-mobile" href="/#contact" >Kontakt</a>
-      </div>
-    </div>
-
-
-    <!-- Header / Home-->
-    <header class="w3-display-container bgimg w3-wide" id="home">
-      <div class="w3-display-middle text-not-black w3-center">
-        <img class="logo" src="{{ url_for('static', filename='img/logo/logo.png') }}" alt="Logo Heilpraktiker Frank Schneider">
-        <h1>Chinesische Medizin</h1>
-        <h2>Frank Schneider</h2>
-        <h2><b>Heilpraktiker</b></h2>
-      </div>
-    </header>
     {% block content %}
     {% endblock content %}
 
-    <!-- Footer -->
-    <footer class="w3-center w3-black">
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a>; &#169; 2017 Frank Schneider | <a href="{{ url_for('impressum') }}#impressum">Impressum</a></p>
-    </footer>
+    {% include 'footer.html' %}
     <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
 
-    {% block foot_script %}
-    {% endblock foot_script %}
-
+    <script src="{{ url_for('static', filename='js/vendor/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/what-input.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/vendor/foundation.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
   </body>
 </html>

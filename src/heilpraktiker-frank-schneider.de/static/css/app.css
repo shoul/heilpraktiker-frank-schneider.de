@@ -1,0 +1,23 @@
+body {
+	background-color: rgb(255, 210, 20);
+}
+img {
+	border-radius: 0.2em;
+}
+header, #therapy, #about, #contact, #info {
+	padding-top: 4em;
+}
+#info {
+	background-image: url(/static/img/moxa_1200.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	border-radius: 0.2em;
+}
+.menu {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: rgb(238, 238, 238);
+	z-index: +1;
+}
