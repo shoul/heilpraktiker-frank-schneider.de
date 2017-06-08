@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heilpraktiker Frank Schneider</title>
+    <link href="https://fonts.googleapis.com/css?family=Palanquin:300|Work+Sans:300" rel="stylesheet">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.min.css') }}">
     {% block head %}
@@ -17,14 +18,10 @@
 
         {% include 'header.html' %}
 
-    <div class="wrapper">
-    </div>
-
     {% block content %}
     {% endblock content %}
 
     {% include 'footer.html' %}
-    <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
 
     <script src="{{ url_for('static', filename='js/vendor/jquery.js') }}"></script>
     <script src="{{ url_for('static', filename='js/vendor/what-input.js') }}"></script>

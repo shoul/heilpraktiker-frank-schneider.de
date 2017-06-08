@@ -38,6 +38,7 @@ $(document).ready(function() {
     view: mappings.view
   });
 
-  $('header').css("min-height", $(window).height());
+  $('#header').css("min-height", $(window).height());
+  $('#about').css("min-height", $(window).height());
 })
 
