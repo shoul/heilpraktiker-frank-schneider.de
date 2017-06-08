@@ -1,15 +1,14 @@
-html {
-	font-family: 'Roboto', sans-serif;
-}
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Open Sans', sans-serif;
-	color: rgb(29, 30, 35);
-}
-p {
-	color: rgb(29, 30, 35);
+	font-family: 'Work Sans', sans-serif;
+	color: rgb(255, 255, 255);
 }
 body {
-	background-color: rgb(255, 180, 0);
+    font-family: 'Palanquin', sans-serif;
+	background-color: rgb(124, 124, 124);
+	color: rgb(255, 255, 255);
+}
+body a {
+	color: rgb(100, 100, 100);
 }
 img {
 	border-radius: 0.2em;
@@ -17,17 +16,32 @@ img {
 header, #therapy, #about, #contact, #info {
 	padding-top: 4em;
 }
-#info {
-	background-image: url(/static/img/moxa_1200.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	border-radius: 0.2em;
-}
-.menu {
+#nav {
 	position: fixed;
 	width: 100%;
 	top: 0px;
 	background-color: rgb(238, 238, 238);
 	z-index: +1;
+}
+#nav a {
+	color: rgb(43, 166, 203);
+}
+#therapy {
+	background-color: rgb(166, 145, 82);
+}
+#info {
+	background-image: url(/static/img/moxa_1200.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0.2em;
+	z-index: -1;
+}
+#about {
+	background-color: rgb(208, 166, 41);
+}
+#contact {
+	background-color: rgb(250, 187, 0);
+}
+#contact * {
+	color: rgb(20, 20, 20);
 }
