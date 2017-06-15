@@ -1,20 +1,26 @@
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	color: rgb(255, 255, 255);
 }
 body {
-    font-family: 'Palanquin', sans-serif;
-	background-color: rgb(124, 124, 124);
+    font-family: 'Alegreya Sans SC', sans-serif;
+	background-color: rgb(124, 124, 150);
 	color: rgb(255, 255, 255);
 }
 body a {
-	color: rgb(180, 180, 180);
+	color: rgb(200, 200, 255);
 }
 img {
 	border-radius: 0.2em;
 }
 header, #therapy, #about, #contact, #info {
 	padding-top: 4em;
+}
+.plus {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.6em;
+	font-weight: 700;
 }
 #nav {
 	position: fixed;
@@ -30,18 +36,27 @@ header, #therapy, #about, #contact, #info {
 	background-color: rgb(166, 145, 82);
 }
 #info {
-	background-image: url(/static/img/moxa_1200.png);
+	background-image: url(/static/img/moxa_1000.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	border-radius: 0.2em;
 	z-index: -1;
+	padding-top: 7em;
+	padding-bottom: 7em;
 }
 #about {
-	background-color: rgb(208, 166, 41);
+	background-color: rgb(211, 158, 50);
 }
 #contact {
-	background-color: rgb(250, 187, 0);
+	background-color: rgb(255, 175, 0);
 }
 #contact * {
 	color: rgb(20, 20, 20);
+}
+#therapeut {
+	padding-bottom: 1em;
+}
+.email {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
