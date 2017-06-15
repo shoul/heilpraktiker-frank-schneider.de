@@ -4,7 +4,10 @@
     <link rel="stylesheet" href="https://openlayers.org/en/v4.0.1/css/ol.css" type="text/css">
 {% endblock head %}
 
+
 {% block content %}
+
+    {% include '_header.html' %}
 
     <div class="expanded row" id="therapy">
       <div class="row">
@@ -15,13 +18,13 @@
       <div class="row">
         <div class="small-12 medium-6 column">
 
-          <p>Das <b>Plus</b> stehet einerseits für weitere <a href="/#methods">Therapiemethoden</a> und andererseits für eine besonders sanfte Akupunktur.</p>
+          <p>Das <b>Plus</b> stehet einerseits für eine besonders sanfte Akupunktur und andererseits für weitere <a href="/#methods">Therapiemethoden</a>.</p>
 
           <p>Moderne Fertigungstechiken ermöglichen heute so dünne Akupunkturnadeln, dass selbst Kinder diese kaum mehr als Schmerz empfinden.</p>
 
         </div>
         <div class="small-12 medium-6 column">
-          <img alt="Therapieraum von Frank Schneider" src="{{ url_for('static', filename='img/room_0768.png') }}">
+          <img alt="Therapieraum von Frank Schneider" src="{{ url_for('static', filename='img/room3_0600.png') }}">
         </div>
       </div>
       <div class="row">
@@ -30,35 +33,36 @@
 
             <h2>Chinesische Medizin</h2>
 
-            <p>Die <i>Chinesische Medizin </>ist eine, seit mehr als zweitausend Jahren stetig weiterentwickelte, Anwendungsmedizin. Es ist eine energetische Medizin bei der der aktuelle Zustand des Menschen im Mittelpunkt steht. Körper und Geist sind eine Einheit.</p>
+            <p>Die <i>Chinesische Medizin </i>ist eine, seit mehr als zweitausend Jahren stetig weiterentwickelte, Anwendungsmedizin. Sie basiert auf energetischen Konzepten wie etwa Yin und Yang, den Leitbahnen und den Akupunkturpunkten. Der Menschen als ganzes steht im Mittelpunkt; Körper und Geist werden als eine Einheit betrachtet.</p>
 
             <h3 id="methods">Methoden</h3>
 
-          <p>Außer Akupunktur biete ich noch folgende Therapieformen an.</p>
+          <p>Folgende Therapieformen biete ich an:</p>
 
           <ul>
+            <li>Akupunktur</li>
             <li>Tuina</li>
             <li>Ohrakupunktur</li>
             <li>Chinesische Diagnostik und Westliche Kräuter in der Kinderheilkunde</li>
           </ul>
 
-          <p> <b>Tuina </b>ist eine manuelle Therapiemethode und bildet eine der fünf Therapiesäulen der <i>Chinesischen Medizin</i>. In der Tuinatherapie werden die Leitbahnen und Punkte manuell stimmulieret. Diese Therapiemethode ist mit der westlichen Physotherapie eher nicht vergleichbar. Tuina funktioniert ähnlich wie die Akupunktur und es können auch innere Krankheiten therapiert werden.</p>
+          <p><b>Tuina </b>ist eine manuelle Therapiemethode und bildet eine der fünf Therapiesäulen der <i>Chinesischen Medizin</i>. In der Tuinatherapie werden die Leitbahnen und Punkte manuell stimmulieret. Diese Therapiemethode ist mit der westlichen Physotherapie eher nicht vergleichbar. Tuina funktioniert ähnlich wie die Akupunktur und es können auch innere Krankheiten therapiert werden.</p>
 
           </article>
         </div>
         <div class="small-12 medium-6 column">
           <h2>Anwendung</h2>
 
-          <p>Beispiele für gut therapierbare Beschwerden sind Schmerztherapien wie Rückenschmerzen oder Kopfschmerzen aber auch Infektanfälligkeit, Atemwegserkrankungen, Postoperative Beschwerden, Rauchentwöhnung und vieles mehr. Die Anwendungsgebiete für Chinesische Medizin sind breit gefächert. </p>
+          <p>Beispiele für gut therapierbare Beschwerden sind Schmerztherapien wie Rückenschmerzen oder Kopfschmerzen aber auch Infektanfälligkeit, Atemwegserkrankungen, Postoperative Beschwerden, Rauchentwöhnung und vieles mehr. Die Anwendungsgebiete für Chinesische Medizin sind breit gefächert.</p>
+
+          <p>Es besteht auch die Möglichkeit einer komplementären Therapie, neben einer schulmedizinischen Behandlung.</p>
         </div>
       </div>
     </div>
 
-    <div class="row collapse text-center" id="info">
+    <div class="row text-center" id="info">
       <div class="column">
-      <h1 class="">Gezielte Wärme</h1><br>
-      <h2>Beifuß kommt oft zum Einsatz.</h2>
-      <p>Diese Wärmebehandlung an Akupunkturpunkten ist effektiv und entspannend.</p>
+      <h2>Wärmebehandlung an Akupunkturpunkten ist effektiv und entspannend.</h2>
       </div>
     </div>
 
@@ -67,15 +71,20 @@
       <div class="row">
         <div class="small-12 medium-9 column">
           <article>
+
             <h1>Therapeut</h1>
-            <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab. Die Ausbildung umfasste, inclusive der klinischen Supervisionsstunden 1270 Stunden. Außerdem hat er eine 140 Stunden umfassende Ausbildung in Tuina.</p>
+
+            <p>Frank Schneider ist Heilpraktiker seit dem 26. Mai 2008 und schloss am 31.01.2011 die dreijährige Ausbildung in <i>Klassischer Akupunktur und Traditioneller Chinesischer Medizin</i> ab.</p>
+
+            <p>Diese umfangreiche Ausbildung absolvierte er bei der <a href="http://www.abz-ost.de/">Shou Zhong </a>in Berlin, Kooperationsschule der <a href="https://www.agtcm.de/therapeuten/ausbildung/diplom-ausbildung/kooperationsschulen.htm">Arbeitsgemeinschaft für klassische Akupunktur und Traditionelle Chinesische Medizin</a>.</p>
 
             <p>Durch die stete Teilnahme an Kursen und Weiterbildungen erweitert er sein Behandlungsspektrum.</p>
 
           </article>
         </div>
         <div class="small-12 medium-3 column">
-          <img src="{{ url_for('static', filename='img/therapeut2_0512.png') }}" alt="Heilpraktiker Frank Schneider">
+
+          <img id="therapeut" src="{{ url_for('static', filename='img/therapeut2_0350.png') }}" alt="Heilpraktiker Frank Schneider">
         </div>
       </div>
     </div>
@@ -108,7 +117,7 @@
           <h1>Wünschen Sie einen Termin?</h1>
           <p>Ich freue mich auf Sie.</p>
           <h2>Kontakt</h2>
-          <p>Email: <b>kontakt@heilpraktiker-frank-schneider.de</b><br>
+          <p class="email">Email: kontakt@heilpraktiker-frank-schneider.de<br>
             Mobil: <b>0178 / 333 59 99</b></p>
         </div>
       </div>
