@@ -53,6 +53,10 @@ header, #therapy, #about, #contact, #info {
 #contact * {
 	color: rgb(20, 20, 20);
 }
+#contact a {
+	color: rgb(51, 51, 65);
+	font-weight: bold;
+}
 #therapeut {
 	padding-bottom: 1em;
 }
